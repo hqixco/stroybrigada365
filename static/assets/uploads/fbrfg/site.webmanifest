@@ -1,19 +1,818 @@
-{
-    "name": "",
-    "short_name": "",
-    "icons": [
-        {
-            "src": "/wp-content/uploads/fbrfg/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/wp-content/uploads/fbrfg/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
-}
+<!doctype html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Страница не найдена &#8212; Строительство, реконструкция, ремонт, отделка в Москве и МО</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Строительство, реконструкция, ремонт, отделка в Москве и МО &raquo; Лента" href="https://stroybrigada-365.ru/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Строительство, реконструкция, ремонт, отделка в Москве и МО &raquo; Лента комментариев" href="https://stroybrigada-365.ru/comments/feed/" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='hello-elementor-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/themes/hello-elementor/assets/css/reset.css' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/themes/hello-elementor/assets/css/theme.css' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/themes/hello-elementor/assets/css/header-footer.css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/css/frontend.min.css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-9374-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/elementor/css/post-9374.css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor-pro/assets/css/frontend.min.css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/elementor/css/global.css' media='all' />
+<link rel='stylesheet' id='elementor-post-12764-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/elementor/css/post-12764.css' media='all' />
+<link rel='stylesheet' id='elementor-post-9424-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/elementor/css/post-9424.css' media='all' />
+<link rel='stylesheet' id='elementor-post-11194-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/elementor/css/post-11194.css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=cyrillic' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-regular-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js" id="font-awesome-4-shim-js"></script>
+<link rel="https://api.w.org/" href="https://stroybrigada-365.ru/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://stroybrigada-365.ru/xmlrpc.php?rsd" />
+<style>.pseudo-clearfy-link { color: #008acf; cursor: pointer;}.pseudo-clearfy-link:hover { text-decoration: none;}</style><meta name="generator" content="Elementor 3.19.3; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<link rel="icon" href="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/cropped-cropped-gormleyconstructionlogodesign_transparent_reverse-01-e1763477433135.png-32x32.webp" sizes="32x32" />
+<link rel="icon" href="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/cropped-cropped-gormleyconstructionlogodesign_transparent_reverse-01-e1763477433135.png-192x192.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/cropped-cropped-gormleyconstructionlogodesign_transparent_reverse-01-e1763477433135.png-180x180.webp" />
+<meta name="msapplication-TileImage" content="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/cropped-cropped-gormleyconstructionlogodesign_transparent_reverse-01-e1763477433135.png-270x270.webp" />
+<style>.clearfy-cookie { position:fixed; left:0; right:0; bottom:0; padding:12px; color:#ffffff; background:#73c61f; -webkit-box-shadow:0 0 15px rgba(0,0,0,.2); -moz-box-shadow:0 0 15px rgba(0,0,0,.2); box-shadow:0 0 15px rgba(0,0,0,.2); z-index:9999; font-size: 13px; transition: .3s; }.clearfy-cookie--left { left: 20px; bottom: 20px; right: auto; max-width: 400px; margin-right: 20px; }.clearfy-cookie--right { left: auto; bottom: 20px; right: 20px; max-width: 400px; margin-left: 20px; }.clearfy-cookie.clearfy-cookie-hide { transform: translateY(150%) translateZ(0); opacity: 0; }.clearfy-cookie-container { max-width:1170px; margin:0 auto; text-align:center; }.clearfy-cookie-accept { background:#353535; color:#fff; border:0; padding:.4em .8em; margin: 0 .5em; font-size: 13px; cursor: pointer; }.clearfy-cookie-accept:hover,.clearfy-cookie-accept:focus { opacity: .9; }</style><style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='e-animations-css' href='https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/animations/animations.min.css' media='all' />
+
+</head>
+<body class="error404 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-9374">
+
+
+<a class="skip-link screen-reader-text" href="#content">Перейти к содержимому</a>
+
+		<div data-elementor-type="header" data-elementor-id="12764" class="elementor elementor-12764 elementor-location-header" data-elementor-post-type="elementor_library">
+					<div class="elementor-section-wrap">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-d5e65f8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d5e65f8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-704f087" data-id="704f087" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-882813c elementor-widget elementor-widget-image" data-id="882813c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="/">
+							<img loading="lazy" width="1562" height="582" src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/6.png.webp" class="attachment-2048x2048 size-2048x2048 wp-image-15499" alt="" srcset="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/6.png.webp 1562w, https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/6-300x112.png.webp 300w, https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/6-1024x382.png.webp 1024w, https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/6-768x286.png.webp 768w, https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/6-1536x572.png.webp 1536w" sizes="(max-width: 1562px) 100vw, 1562px" />								</a>
+													</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-503d9b0 elementor-hidden-mobile" data-id="503d9b0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1766da4 elementor-align-right elementor-tablet-align-right elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1766da4" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="far fa-clock"></i>						</span>
+										<span class="elementor-icon-list-text">8:00 - 22:00 ежедневно</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-whatsapp"></i>						</span>
+										<span class="elementor-icon-list-text">Написать в WhatsApp</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-telegram-plane"></i>						</span>
+										<span class="elementor-icon-list-text">написать в Telegram                    </span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-168a282" data-id="168a282" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1c9b60b elementor-align-right elementor-mobile-align-center elementor-tablet-align-right elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1c9b60b" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+										<span class="elementor-icon-list-text">Москва</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="tel:+79777798777">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone-alt"></i>						</span>
+										<span class="elementor-icon-list-text">+7 (977)-779-87-77</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-bbe014a elementor-hidden-mobile" data-id="bbe014a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c82f2d4 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="c82f2d4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-wobble-vertical" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMTk0IiwidG9nZ2xlIjpmYWxzZX0%3D">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Заказать звонок</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-278db78 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="278db78" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-876feae" data-id="876feae" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-79b73f7 elementor-nav-menu__align-justify elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="79b73f7" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-framed e--animation-draw">
+				<ul id="menu-1-79b73f7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15616"><a href="https://stroybrigada-365.ru/" class="elementor-item">Главная</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11320"><a href="https://stroybrigada-365.ru/category/nashi-uslugi/" class="elementor-item">Наши услуги</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15611"><a href="https://stroybrigada-365.ru/stroitelstvo-pristroek/" class="elementor-sub-item">Строительство пристроек</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15426"><a href="https://stroybrigada-365.ru/montazh-krovli-i-stropil/" class="elementor-sub-item">Монтаж кровли и стропил</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15614"><a href="https://stroybrigada-365.ru/otmostki/" class="elementor-sub-item">Отмостки</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15428"><a href="https://stroybrigada-365.ru/ustroystvo-fundamentov-otmostok-parkovok/" class="elementor-sub-item">Фундаментные работы</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15427"><a href="https://stroybrigada-365.ru/stroitelstvo-sten-derevyannyh-karkasnyh-kamennyh/" class="elementor-sub-item">Строительство стен деревянных, каркасных, каменных</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15425"><a href="https://stroybrigada-365.ru/otdelochnye-raboty-ustroystvo-styazhek-i-polov/" class="elementor-sub-item">Отделочные работы устройство стяжек и полов</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15429"><a href="https://stroybrigada-365.ru/stroitelstvo-chastnyh-domov-kottedzhey-ban/" class="elementor-sub-item">Строительство частных домов, коттеджей, бань</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15430"><a href="https://stroybrigada-365.ru/stroitelstvo-zdaniy-i-otdelka/" class="elementor-sub-item">Строительство зданий и отделка</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11300"><a href="https://stroybrigada-365.ru/o-nas/" class="elementor-item">О нас</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15557"><a href="https://stroybrigada-365.ru/foto-rabot1/" class="elementor-item">Фото работ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14678"><a href="https://stroybrigada-365.ru/tseny/" class="elementor-item">Цены</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11299"><a href="https://stroybrigada-365.ru/kontakty/" class="elementor-item">Контакты</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-79b73f7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15616"><a href="https://stroybrigada-365.ru/" class="elementor-item" tabindex="-1">Главная</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11320"><a href="https://stroybrigada-365.ru/category/nashi-uslugi/" class="elementor-item" tabindex="-1">Наши услуги</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15611"><a href="https://stroybrigada-365.ru/stroitelstvo-pristroek/" class="elementor-sub-item" tabindex="-1">Строительство пристроек</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15426"><a href="https://stroybrigada-365.ru/montazh-krovli-i-stropil/" class="elementor-sub-item" tabindex="-1">Монтаж кровли и стропил</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15614"><a href="https://stroybrigada-365.ru/otmostki/" class="elementor-sub-item" tabindex="-1">Отмостки</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15428"><a href="https://stroybrigada-365.ru/ustroystvo-fundamentov-otmostok-parkovok/" class="elementor-sub-item" tabindex="-1">Фундаментные работы</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15427"><a href="https://stroybrigada-365.ru/stroitelstvo-sten-derevyannyh-karkasnyh-kamennyh/" class="elementor-sub-item" tabindex="-1">Строительство стен деревянных, каркасных, каменных</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15425"><a href="https://stroybrigada-365.ru/otdelochnye-raboty-ustroystvo-styazhek-i-polov/" class="elementor-sub-item" tabindex="-1">Отделочные работы устройство стяжек и полов</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15429"><a href="https://stroybrigada-365.ru/stroitelstvo-chastnyh-domov-kottedzhey-ban/" class="elementor-sub-item" tabindex="-1">Строительство частных домов, коттеджей, бань</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15430"><a href="https://stroybrigada-365.ru/stroitelstvo-zdaniy-i-otdelka/" class="elementor-sub-item" tabindex="-1">Строительство зданий и отделка</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11300"><a href="https://stroybrigada-365.ru/o-nas/" class="elementor-item" tabindex="-1">О нас</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15557"><a href="https://stroybrigada-365.ru/foto-rabot1/" class="elementor-item" tabindex="-1">Фото работ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14678"><a href="https://stroybrigada-365.ru/tseny/" class="elementor-item" tabindex="-1">Цены</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11299"><a href="https://stroybrigada-365.ru/kontakty/" class="elementor-item" tabindex="-1">Контакты</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c7d22d2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c7d22d2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:15504,&quot;url&quot;:&quot;https:\/\/stroybrigada-365.ru\/wp-content\/uploads\/2025\/11\/1-1.jpg.webp&quot;},{&quot;id&quot;:15505,&quot;url&quot;:&quot;https:\/\/stroybrigada-365.ru\/wp-content\/uploads\/2025\/11\/2.jpg.webp&quot;},{&quot;id&quot;:15506,&quot;url&quot;:&quot;https:\/\/stroybrigada-365.ru\/wp-content\/uploads\/2025\/11\/3.jpg.webp&quot;}],&quot;background_slideshow_ken_burns&quot;:&quot;yes&quot;,&quot;background_slideshow_ken_burns_zoom_direction&quot;:&quot;out&quot;,&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b8b2f40" data-id="b8b2f40" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5e23c64 elementor-widget elementor-widget-heading" data-id="5e23c64" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Бригада строителей, <span style="color:#78B845">без посредников</span></p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-90af38e elementor-widget elementor-widget-heading" data-id="90af38e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">выполнит все виды ремонтных и строительных работ под ключ</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b49ed4f elementor-align-left elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="b49ed4f" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-wobble-vertical" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMTk0IiwidG9nZ2xlIjpmYWxzZX0%3D">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">заказать звонок</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-af1b5b1" data-id="af1b5b1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c02dc3b elementor-widget elementor-widget-spacer" data-id="c02dc3b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+							</div>
+				</div>
+		<main id="content" class="site-main">
+
+			<div class="page-header">
+			<h1 class="entry-title">Страница не найдена.</h1>
+		</div>
+	
+	<div class="page-content">
+		<p>Похоже, здесь ничего не найдено.</p>
+	</div>
+
+</main>
+		<div data-elementor-type="footer" data-elementor-id="9424" class="elementor elementor-9424 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<div class="elementor-section-wrap">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-2199417 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2199417" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5323388" data-id="5323388" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c0d4a96 elementor-widget elementor-widget-heading" data-id="c0d4a96" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Почему стоит выбирать именно нас
+</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3b42b95 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3b42b95" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c9778e6" data-id="c9778e6" data-element_type="column" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e2d83a2 elementor-position-top elementor-widget elementor-widget-image-box" data-id="e2d83a2" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img fetchpriority="high" fetchpriority="high" width="1080" height="554" src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2025/11/90ab1feb7f7afee269e4f92c0d9ed9546d936eda.png-e1763554351973.webp" class="attachment-full size-full wp-image-15465" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Дома под ключ</h3><p class="elementor-image-box-description">Полный цикл строительства: возводим дом «под ключ» и подключаем все инженерные системы. Вы получите объект, полностью готовый к проживанию.
+</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e7fe9b9" data-id="e7fe9b9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-48bbfa9 elementor-position-top elementor-widget elementor-widget-image-box" data-id="48bbfa9" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="1024" height="481" src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2025/11/a196007d8e39a7bb9349a398f035a9f2.png.webp" class="attachment-full size-full wp-image-15464" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Наша гарантия — это качество</h3><p class="elementor-image-box-description"> Мы строим исключительно из сертифицированных материалов, прошедших строгий входной контроль. Это — фундамент долговечности и безопасности вашего дома.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e754c69" data-id="e754c69" data-element_type="column" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5e90ebe elementor-position-top elementor-widget elementor-widget-image-box" data-id="5e90ebe" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="1080" height="518" src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2025/11/pngtree-wooden-numeric-15-feast-png-image_10080896.png-e1763555526253.webp" class="attachment-full size-full wp-image-15467" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Опыт 15+ лет</h3><p class="elementor-image-box-description">Мы работаем в сфере деревянного домостроения на протяжении многих лет, что позволяет нам гарантировать высочайшее качество и соблюдение технологий.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2e0cbd2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2e0cbd2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bafdd79" data-id="bafdd79" data-element_type="column" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-eedad4f elementor-position-top elementor-widget elementor-widget-image-box" data-id="eedad4f" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" loading="lazy" width="600" height="333" src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2025/11/1111.png.webp" class="attachment-full size-full wp-image-15477" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Четкость и сроки </h3><p class="elementor-image-box-description">Строгое соблюдение сроков — одно из ключевых преимуществ нашей компании. Мы понимаем, что ваше время — это ценность.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2b71acf" data-id="2b71acf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0270ab8 elementor-position-top elementor-widget elementor-widget-image-box" data-id="0270ab8" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" loading="lazy" width="600" height="333" src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2025/11/1111111.png.webp" class="attachment-full size-full wp-image-15478" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Собственное производство пиломатериалов</h3><p class="elementor-image-box-description">Мы полностью контролируем качество древесины на всех этапах — от лесозаготовки до обработки. Это гарантия идеальной геометрии и долговечности вашего дома.</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3e894e2" data-id="3e894e2" data-element_type="column" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0af94a6 elementor-position-top elementor-widget elementor-widget-image-box" data-id="0af94a6" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" loading="lazy" width="600" height="333" src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2025/11/26-261562_sale-in-png-format-discount-dice.png" class="attachment-full size-full wp-image-15476" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Регулярные акции</h3><p class="elementor-image-box-description">Следите за нашими сезонными предложениями — строительство выходит дешевле!</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b85e81e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b85e81e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-604acab" data-id="604acab" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4b8b5f2 elementor-widget elementor-widget-heading" data-id="4b8b5f2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Отзывы о нас</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-65ab529 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="65ab529" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-408e36d" data-id="408e36d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0397fe4 elementor-widget elementor-widget-image-box" data-id="0397fe4" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Семья Васильевых, г. Москва</h3><p class="elementor-image-box-description">Обратились в «Стройбригада365» с мечтой о собственной бане на участке. Сомневались, так как отзывы в интернете разные, но результат превзошел все ожидания!
+
+С самого начала менеджер подробно проконсультировал по всем вопросам: помог выбрать проект «Под ключ», подсказал с материалом (остановились на каркасе с внешней отделкой блок-хаусом) и составил понятную смету без скрытых платежей.
+
+Бригада из двух человек приступила к работе сразу после подписания договора. Работали очень аккуратно и быстро, без простоев. Все материалы привозили точно в срок, те, что были заявлены. Особо хочу отметить прораба Алексея – человек фанатично предан своему делу, постоянно всё проверял по уровню, консультировал нас по всем моментам.
+
+Саму баню построили за 3 недели. Получилась уютная, парится – одно удовольствие! Все коммуникации подвели грамотно, печь установили с соблюдением всех норм безопасности.
+
+Итог: качественная работа, соблюдение сроков и адекватные цены. Теперь всем соседям рекомендую только «Стройбригада365»!</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dc0ef53" data-id="dc0ef53" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8165ccb elementor-widget elementor-widget-image-box" data-id="8165ccb" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Семья Петровых, Московская область</h3><p class="elementor-image-box-description">Хотим выразить огромную благодарность компании «Стройбригада365» и лично прорабу Алексею за строительство нашего коттеджа! С самого начала мы чувствовали, что попали в надежные руки. Менеджер  помог выбрать и адаптировать проект под нашу семью, объяснил все нюансы разных технологий.
+
+Бригада работала быстро, аккуратно и, что важно, очень чисто. Все этапы — от заливки фундамента до чистовой отделки — были выполнены строго по технологии. Мы несколько раз приезжали с внезапными проверками и всегда заставали идеальный порядок.
+
+Коттедж получился именно таким, каким мы его представляли: теплый, прочный и очень уютный. Отдельное спасибо за терпение и готовность вносить правки уже в процессе работы. Мы всем сердцем рекомендуем «Стройбригада365» — это профессионалы, которые действительно любят свое дело!
+</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-d6869f1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6869f1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4c15903" data-id="4c15903" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-daf18e8 elementor-widget elementor-widget-image-box" data-id="daf18e8" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Антон, Московская обл.</h3><p class="elementor-image-box-description">Долго выбирали, кому доверить строительство бани, так как участок с небольшим уклоном. Остановились на «Стройбригада365» потому, что они единственные предложили не просто стандартный проект, а готовы были сделать адаптированный под наш сложный рельеф фундамент (свайно-ростверковый). Не прогадали! Бригада с задачей справилась, всё сделали технологически верно. Баня стоит как влитая, перекосов нет. Спасибо за грамотный подход и честность!</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a12fbc6" data-id="a12fbc6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-99d157c elementor-widget elementor-widget-image-box" data-id="99d157c" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Ирина</h3><p class="elementor-image-box-description">Строили дом с компанией «Стройбригада365» — остались в восторге!
+Отличные ребята, работали даже зимой. Помогли изменить типовой проект под наш участок. Цены адекватные, смету не превысили. Сдали объект чисто, убрали за собой. Особо хочу отметить прораба Алексея — человек фанатично предан своему делу, постоянно всё проверял. Советую!</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-553150d" data-id="553150d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-921213f elementor-widget elementor-widget-image-box" data-id="921213f" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Георгий</h3><p class="elementor-image-box-description">Строили дом с компанией «Стройбригада365» – остались довольны! 
+Отличные ребята, работали даже зимой. Помогли изменить типовой проект под наш участок. Цены адекватные, смету не превысили. Сдали объект чисто, убрали за собой. Советую!</p></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-318372a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="318372a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6a7414a" data-id="6a7414a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-563d5a1 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="563d5a1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b363671" data-id="b363671" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a6ed648 elementor-widget elementor-widget-heading" data-id="a6ed648" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Рассчитайте стоимость дома</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5e10e49 elementor-align-center elementor-widget elementor-widget-button" data-id="5e10e49" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-wobble-vertical" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMTk0IiwidG9nZ2xlIjpmYWxzZX0%3D">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">УЗНАТЬ СТОИМОСТЬ строительных работ</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d9db784" data-id="d9db784" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:50}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]}}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b044586 elementor-widget elementor-widget-spacer" data-id="b044586" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c362deb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c362deb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90309be" data-id="90309be" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a90927f elementor-widget elementor-widget-heading" data-id="a90927f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Вопрос-ответ</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-48ae66e elementor-widget elementor-widget-toggle" data-id="48ae66e" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7621" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-7621" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title" tabindex="0">Насколько качественные применяемые вами строительные материалы?</a>
+					</div>
+
+					<div id="elementor-tab-content-7621" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-7621"><p class="ds-markdown-paragraph">Это один из самых важных вопросов, и мы относимся к нему с максимальной ответственностью. Для нас «качество» — это не просто слово, а конкретные критерии:</p><ol start="1"><li><p class="ds-markdown-paragraph"><strong>Соответствие стандартам.</strong> Мы работаем с материалами, имеющими необходимые сертификаты и маркировки (например, ГОСТ или соответствующие ТУ). Это гарантирует их заявленные прочностные, экологические и эксплуатационные характеристики.</p></li><li><p class="ds-markdown-paragraph"><strong>Проверенные поставщики.</strong> Мы годами сотрудничаем с надежными производителями и дистрибьюторами, чья репутация на рынке не вызывает сомнений. Мы закупаем материалы напрямую, минуя сомнительных перекупщиков, что исключает риск приобретения подделки.</p></li><li><p class="ds-markdown-paragraph"><strong>Оптимальное соотношение.</strong> Мы не используем самые дешевые материалы, так как это напрямую сказывается на долговечности и безопасности. Наша задача — предложить лучшее решение в рамках вашего бюджета, чтобы дом служил десятилетиями без проблем.</p></li><li><p class="ds-markdown-paragraph"><strong>Прозрачность для вас.</strong> Мы всегда предоставляем полную информацию о применяемых материалах (наименование, бренд, спецификации) в сметной документации и согласовываем их с вами перед началом работ. Вы всегда знаете, что именно мы используем на вашем объекте.</p></li></ol><p class="ds-markdown-paragraph"><strong>Кратко: мы используем материалы, которые выбрали бы для строительства своего собственного дома.</strong></p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7622" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-7622" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title" tabindex="0">Можно ли строить зимой?</a>
+					</div>
+
+					<div id="elementor-tab-content-7622" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-7622"><p>Если коротко: современные технологии и материалы позволяют вести строительство практически круглый год, но это почти всегда <strong>влечет за собой дополнительные затраты и требует строгого соблюдения специальных правил</strong>.</p><p>Давайте разберем подробно, что можно и нельзя делать зимой, а также с какими сложностями придется столкнуться.</p><p><strong>Какие работы можно проводить зимой?</strong></p><ol start="1"><li><strong>Земляные работы.</strong> Их проводить можно, но сложно и дорого. Грунт промерзает, и для его разработки требуется тяжелая техника (например, с клыками-рыхлителями) или предварительный прогрев. Это увеличивает стоимость и сроки.</li><li><strong>Заливка бетона (бетонные работы).</strong> Это одна из самых критичных операций зимой. Проводится по специальной технологии &#171;зимнего бетонирования&#187;:<ul><li>Использование <strong>противоморозных добавок</strong> в бетонную смесь.</li><li><strong>Электропрогрев</strong> уложенного бетона.</li><li>Устройство <strong>тепляков</strong> (временных укрытий с тепловыми пушками) вокруг бетонируемых конструкций.</li><li>Использование <strong>утепленной опалубки</strong>.</li><li>Без этих мер вода в бетоне замерзнет, он не наберет прочность и разрушится.</li></ul></li><li><strong>Кирпичная и блочная кладка.</strong> Также возможна при соблюдении условий:<ul><li>Использование <strong>зимнего кладочного раствора</strong> с противоморозными добавками.</li><li>Подогрев воды и песка для раствора.</li><li>Работа в тепляках или с тепловыми завесами.</li><li>Кладка не должна проводиться при температуре ниже -15&#8230;-20°C без специальных мер.</li></ul></li><li><strong>Монтаж готовых конструкций.</strong> Сборка железобетонных конструкций, каркасных домов, срубов из заранее подготовленного бруса/бревна — это один из самых благоприятных видов зимнего строительства. Главное — обеспечить безопасность работ на снегу и льду.</li><li><strong>Кровельные работы.</strong> Монтаж стропильной системы и саму кровлю можно вести, но материалы (например, битумную черепицу) нужно хранить в теплом помещении и монтировать с соблюдением температурного режима. Работать на крыше зимой опасно.</li><li><strong>Внутренние работы (в закрытом и отапливаемом контуре).</strong> Если дом уже имеет крышу и установлены окна/двери, а внутри работает отопление, то все внутренние работы (разводка электрики, сантехники, штукатурка, стяжка пола, шпаклевка, поклейка обоев) проводятся так же, как и летом. Главное — обеспечить хорошую вентиляцию для вывода влаги.</li></ol><p><strong>Главные проблемы и риски зимнего строительства</strong></p><ol start="1"><li><strong>Снижение производительности труда.</strong> Короткий световой день, мороз, метели, снегопады — все это замедляет работу.</li><li><strong>Необходимость в дополнительном оборудовании.</strong> Тепловые пушки, генераторы, укрывные материалы, освещение — все это стоит денег и увеличивает смету.</li><li><strong>Высокие риски для материалов.</strong> Многие материалы (кирпич, блоки, пиломатериалы) требуют особых условий хранения зимой. Древесина может набрать влагу от снега, а потом покрыться плесенью.</li><li><strong>Сложности с логистикой.</strong> Размытые грунтовые дороги осенью могут стать непреодолимым препятствием для техники зимой.</li><li><strong>Риск замораживания конструкций.</strong> Самая большая опасность — это замерзание только что уложенного бетона или кладочного раствора. Это приводит к потере прочности и разрушению конструкции.</li></ol><p><strong>Преимущества зимнего строительства (да, они тоже есть!)</strong></p><ol start="1"><li><strong>Скидки от подрядчиков.</strong> Зима — &#171;низкий сезон&#187; для многих строительных бригад, поэтому можно договориться о более выгодной цене.</li><li><strong>Качество древесины.</strong> Зимний лес считается более качественным: в дереве меньше сока, оно естественной влажности и меньше подвержено гниению и посинению.</li><li><strong>Возможность начать сезон раньше.</strong> Если заложить фундамент и возвести коробку зимой, то с наступлением весны можно сразу приступать к отделке и к осени уже въехать в дом.</li><li><strong>Удобство подъезда.</strong> На промерзшем грунте тяжелой технике легче подъехать к объекту, чем в осеннюю распутицу.</li></ol><p><strong>Выводы</strong></p><ol start="1"><li><strong>Строить зимой МОЖНО</strong>, если использовать правильные технологии и быть готовым к дополнительным расходам (в среднем +10-20% к стоимости &#171;летних&#187; работ).</li><li><strong>НЕ СТОИТ</strong> строить зимой, если вы ограничены в бюджете и не можете проконтролировать соблюдение всех технологических норм подрядчиком.</li><li><strong>Идеальная стратегия:</strong> начать строительство осенью, чтобы к зиме уже иметь закрытый теплый контур (фундамент, стены, крыша, окна/двери). Всю зиму тогда можно спокойно и без рисков вести внутренние работы.</li></ol><p><strong>Итог:</strong> Зимнее строительство — это вынужденная или стратегическая мера, которая требует профессионального подхода, дополнительных вложений и тщательного планирования. Для серьезных проектов оно вполне осуществимо и часто бывает оправдано.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7623" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-7623" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title" tabindex="0">Когда лучше начинать строить дом?</a>
+					</div>
+
+					<div id="elementor-tab-content-7623" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-7623"><p class="ds-markdown-paragraph">Если говорить об идеальном календарном плане, то <strong>лучше всего начинать строительство весной</strong>. А вот почему и какие есть альтернативы, давайте разберем подробно.</p><p><strong>Вариант 1: Идеальный старт — ВЕСНА (апрель-май)</strong></p><p class="ds-markdown-paragraph">Это самое популярное и оптимальное время для начала.</p><p class="ds-markdown-paragraph"><strong>Плюсы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Благоприятные погодные условия:</strong> Земля оттаяла, нет морозов, много солнечных дней. Это идеально для земляных работ и заливки фундамента.</p></li><li><p class="ds-markdown-paragraph"><strong>Длинный световой день:</strong> Рабочий день длиннее, производительность выше.</p></li><li><p class="ds-markdown-paragraph"><strong>Комфортные условия для рабочих:</strong> Нет изнуряющей жары или холода.</p></li><li><p class="ds-markdown-paragraph"><strong>Логичный цикл:</strong> У вас есть вся весна, лето и осень, чтобы до наступления морозов возвести коробку дома (фундамент, стены, крышу) и закрыть <strong>тепловой контур</strong> (установить окна и двери). Это главная цель первого сезона.</p></li><li><p class="ds-markdown-paragraph"><strong>Удобная логистика:</strong> Дороги просохли, подвезти материалы легко.</p></li></ul><p class="ds-markdown-paragraph"><strong>Минусы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Пик сезона:</strong> Подрядчики могут быть загружены, цены на материалы и работы могут быть чуть выше.</p></li><li><p class="ds-markdown-paragraph"><strong>Возможна распутица:</strong> В некоторых регионах ранней весной дороги могут быть размыты.</p></li></ul><p><strong>Вариант 2: Стратегический старт — КОНЕЦ ЛЕТА или ОСЕНЬ</strong></p><p class="ds-markdown-paragraph">Это хороший вариант, если вы хотите сэкономить и грамотно распределить работу.</p><p class="ds-markdown-paragraph"><strong>Плюсы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Скидки от подрядчиков:</strong> Сезон заканчивается, у строительных бригад может быть скидки.</p></li><li><p class="ds-markdown-paragraph"><strong>Выгодные цены на материалы:</strong> Распродажи в строительных магазинах.</p></li><li><p class="ds-markdown-paragraph"><strong>Оптимальное использование времени:</strong> Можно успеть сделать фундамент осенью, чтобы он за зиму «отстоялся» и набрал прочность. Весной, сразу после схода снега, начинать возводить стены.</p></li></ul><p class="ds-markdown-paragraph"><strong>Минусы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Риск ранних заморозков:</strong> Если не угадать со временем, неокрепший фундамент может пострадать от мороза.</p></li><li><p class="ds-markdown-paragraph"><strong>Осенняя распутица:</strong> Могут возникнуть проблемы с подъездом техники.</p></li><li><p class="ds-markdown-paragraph"><strong>Сжатые сроки:</strong> Нужно успеть выполнить работы до серьезных морозов.</p></li></ul><p><strong>Вариант 3: Зимний старт (ноябрь-февраль)</strong></p><p class="ds-markdown-paragraph">Как мы выяснили ранее, строить зимой можно, но это имеет смысл в определенных случаях.</p><p class="ds-markdown-paragraph"><strong>Плюсы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Низкие цены:</strong> Максимальные скидки и у подрядчиков, и на материалы.</p></li><li><p class="ds-markdown-paragraph"><strong>Качественный лес:</strong> Для сруба зимний лес считается лучшим (меньше влаги, не синеет).</p></li><li><p class="ds-markdown-paragraph"><strong>Твердый грунт:</strong> Удобно для подъезда тяжелой техники по промерзшему грунту.</p></li><li><p class="ds-markdown-paragraph"><strong>Фундамент на зиму:</strong> Залитый по всем правилам фундамент к весне будет готов к нагрузке.</p></li></ul><p class="ds-markdown-paragraph"><strong>Минусы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Высокие затраты на технологии:</strong> Применение противоморозных добавок, прогрев бетона, тепляки — все это удорожает работу.</p></li><li><p class="ds-markdown-paragraph"><strong>Низкая производительность:</strong> Короткий день, морозы, снегопады мешают работе.</p></li><li><p class="ds-markdown-paragraph"><strong>Высокие риски:</strong> Нарушение технологии зимнего бетонирования фатально.</p></li></ul><p><strong>Вариант 4: Начало ЛЕТОМ (июнь-июль)</strong></p><p class="ds-markdown-paragraph">Не самый лучший вариант, но возможный.</p><p class="ds-markdown-paragraph"><strong>Плюсы:</strong></p><ul><li><p class="ds-markdown-paragraph">Тепло и сухо.</p></li></ul><p class="ds-markdown-paragraph"><strong>Минусы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Можно не успеть:</strong> Если начать в июне, до зимы может не хватить времени на возведение коробки и крыши. Оставлять на зиму недостроенные стены под открытым небом — очень плохо.</p></li><li><p class="ds-markdown-paragraph"><strong>Жара:</strong> Может мешать работам с бетоном (требуется дополнительный уход).</p></li><li><p class="ds-markdown-paragraph"><strong>Пик сезона:</strong> Высокие цены и загруженность подрядчиков.</p></li></ul><hr /><p><strong>Универсальный и самый правильный подход: Фазовая стратегия</strong></p><p class="ds-markdown-paragraph">Независимо от сезона, стройку нужно разделить на два основных этапа:</p><p class="ds-markdown-paragraph"><strong>Этап 1: Нулевой цикл и коробка (1-й сезон)</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Цель:</strong> Подготовить участок, сделать фундамент, возвести стены и крышу, установить окна и двери. То есть, закрыть <strong>тепловой контур</strong>.</p></li><li><p class="ds-markdown-paragraph"><strong>Когда начинать:</strong> <strong>Весна</strong> — идеально. Или в конце лета, чтобы сделать только фундамент.</p></li></ul><p class="ds-markdown-paragraph"><strong>Этап 2: Внутренняя и внешняя отделка (2-й сезон)</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Цель:</strong> Провести все коммуникации, сделать внутреннюю черновую и чистовую отделку, фасадные работы.</p></li><li><p class="ds-markdown-paragraph"><strong>Когда начинать:</strong> Как только в доме есть крыша и окна/двери, внутренние работы можно вести <strong>круглый год</strong>, главное — включить отопление.</p></li></ul><p><strong>Итог: Краткий ответ</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Лучшее время для начала стройки — апрель-май.</strong> У вас будет максимум времени для самого важного этапа.</p></li><li><p class="ds-markdown-paragraph"><strong>Хорошая альтернатива для экономных — конец августа.</strong> Чтобы успеть сделать фундамент до зимы.</p></li><li><p class="ds-markdown-paragraph"><strong>Зимнее начало — для тех, кто хочет сэкономить и готов строго контролировать технологии.</strong> Идеально для строительства из зимнего леса.</p></li><li><p class="ds-markdown-paragraph"><strong>Самая плохая идея — начинать поздней осенью (октябрь-ноябрь).</strong> Вы рискуете не успеть даже с фундаментом и &#171;заморозить&#187; стройку в самом невыгодном состоянии.</p></li></ul><p class="ds-markdown-paragraph"><strong>Главный совет:</strong> Начните с проекта и подготовки документов зимой. Получите все разрешения к февралю-марту, и с первым потеплением выходите на участок с готовым планом и бригадой.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7624" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-7624" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title" tabindex="0">Можно ли внести изменения в типовой проект?</a>
+					</div>
+
+					<div id="elementor-tab-content-7624" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-7624"><div id="root"><div class="ds-theme"><div class="cb86951c"><div class="c3ecdb44"><div class="_7780f2e"><div class="_765a5cd"><div class="_3919b83"><div class="_8f60047"><div class="_0f72b0b ds-scroll-area"><div class="dad65929"><div class="_4f9bf79 d7dc56a8 _43c05b5"><div class="ds-message _63c77b1"><div class="ds-markdown"><p class="ds-markdown-paragraph"><strong>Короткий ответ: Да, вносить изменения в типовой проект не только можно, но и очень часто нужно.</strong> Однако это имеет свои плюсы, минусы и важные нюансы.</p><p class="ds-markdown-paragraph">Типовой проект — это не догма, а основа, которую адаптируют под ваши конкретные потребности, участок и бюджет.</p><p><strong>Какие изменения вносят чаще всего?</strong></p><ol start="1"><li><p class="ds-markdown-paragraph"><strong>Планировочные решения (самые популярные):</strong></p><ul><li><p class="ds-markdown-paragraph">Объединение или разделение комнат.</p></li><li><p class="ds-markdown-paragraph">Перенос или изменение размеров дверных проемов.</p></li><li><p class="ds-markdown-paragraph">Увеличение или уменьшение площади кухни, санузлов.</p></li><li><p class="ds-markdown-paragraph">Изменение расположения лестницы.</p></li><li><p class="ds-markdown-paragraph">Организация дополнительных помещений (гардеробная, кладовая, котельная).</p></li></ul></li><li><p class="ds-markdown-paragraph"><strong>Фасад и архитектура:</strong></p><ul><li><p class="ds-markdown-paragraph">Изменение внешней отделки (например, замена штукатурки на сайдинг или облицовочный кирпич).</p></li><li><p class="ds-markdown-paragraph">Добавление, удаление или изменение формы окон, их размера и конфигурации (например, добавление панорамных окон).</p></li><li><p class="ds-markdown-paragraph">Изменение формы или угла наклона крыши.</p></li><li><p class="ds-markdown-paragraph">Добавление террасы, балкона, эркера или крыльца.</p></li></ul></li><li><p class="ds-markdown-paragraph"><strong>Конструктивные изменения:</strong></p><ul><li><p class="ds-markdown-paragraph">Изменение материала стен (с бруса на газобетон или каркасную технологию при схожей конструкции).</p></li><li><p class="ds-markdown-paragraph">Увеличение высоты потолков.</p></li><li><p class="ds-markdown-paragraph">Усиление фундамента (если геология участка хуже, чем предполагалось в проекте).</p></li></ul></li><li><p class="ds-markdown-paragraph"><strong>Инженерные системы:</strong></p><ul><li><p class="ds-markdown-paragraph">Замена типа отопления (например, с электрического на газовое).</p></li><li><p class="ds-markdown-paragraph">Перепланировка сантехнических узлов.</p></li></ul></li></ol><p><strong>Как правильно вносить изменения? Два основных пути:</strong></p><h4>1. Авторские доработки (идеальный вариант)</h4><p class="ds-markdown-paragraph">Если вы покупаете типовой проект у архитектурной студии или автора, у них почти всегда можно заказать услугу <strong>&#171;адаптации проекта&#187;</strong> или <strong>&#171;внесения изменений&#187;</strong>.</p><ul><li><p class="ds-markdown-paragraph"><strong>Плюсы:</strong></p><ul><li><p class="ds-markdown-paragraph"><strong>Профессионализм:</strong> Автор проекта лучше всего знает его конструктивные особенности и внесет правки, не нарушая целостности и безопасности здания.</p></li><li><p class="ds-markdown-paragraph"><strong>Полный пакет документов:</strong> Вы получите новый, переработанный комплект чертежей, где все изменения учтены и согласованы между разделами (архитектурным и конструктивным).</p></li><li><p class="ds-markdown-paragraph"><strong>Гарантия:</strong> Рассчеты нагрузок (особенно на фундамент и несущие стены) будут перепроверены.</p></li></ul></li><li><p class="ds-markdown-paragraph"><strong>Минусы:</strong></p><ul><li><p class="ds-markdown-paragraph">Это стоит денег. Но эта стоимость несравнима со стоимостью ошибки.</p></li></ul></li></ul><h4>2. Внесение изменений силами проектировщика/строительной бригады</h4><p class="ds-markdown-paragraph">Если у вас есть на руках &#171;голый&#187; типовой проект без возможности связи с автором, изменения может внести любой другой квалифицированный архитектор или инженер.</p><ul><li><p class="ds-markdown-paragraph"><strong>Плюсы:</strong></p><ul><li><p class="ds-markdown-paragraph">Часто дешевле, чем обращаться к автору.</p></li></ul></li><li><p class="ds-markdown-paragraph"><strong>Минусы:</strong></p><ul><li><p class="ds-markdown-paragraph">Специалист будет разбираться в &#171;чужом&#187; проекте, что может занять время.</p></li><li><p class="ds-markdown-paragraph">Есть риск упустить важные нюансы.</p></li></ul></li></ul><p class="ds-markdown-paragraph"><strong>Важно:</strong> Любые серьезные изменения, особенно касающиеся несущих конструкций (стен, фундамента, перекрытий, крыши), <strong>должны быть выполнены профессионалом и отражены в проектной документации.</strong></p><p><strong>Какие изменения могут быть опасны?</strong></p><p class="ds-markdown-paragraph">Некоторые правки, сделанные &#171;на коленке&#187; без расчетов, могут привести к серьезным проблемам:</p><ul><li><p class="ds-markdown-paragraph"><strong>Снос или перенос несущих стен.</strong> Требует обязательного усиления перекрытий и расчета нагрузки.</p></li><li><p class="ds-markdown-paragraph"><strong>Увеличение оконных проемов</strong> в несущих стенах. Ослабляет конструкцию, требует установки усиленных перемычек.</p></li><li><p class="ds-markdown-paragraph"><strong>Добавление тяжелой отделки</strong> (натуральный камень) без учета нагрузки на фундамент.</p></li><li><p class="ds-markdown-paragraph"><strong>Изменение угла наклона крыши</strong> без перерасчета стропильной системы.</p></li></ul><p><strong>Общий алгоритм действий:</strong></p><ol start="1"><li><p class="ds-markdown-paragraph"><strong>Определитесь со списком желаемых изменений.</strong> Составьте четкий и конкретный перечень.</p></li><li><p class="ds-markdown-paragraph"><strong>Найдите специалиста</strong> (архитектора, конструктора), который оценит список на предмет выполнимости и безопасности.</p></li><li><p class="ds-markdown-paragraph"><strong>Закажите адаптацию проекта.</strong> Передайте типовой проект и список правок специалисту для внесения изменений и выпуска нового комплекта чертежей.</p></li><li><p class="ds-markdown-paragraph"><strong>Убедитесь, что все раздеы проекта согласованы.</strong> Архитектурный план должен соответствовать конструктивным решениям.</p></li><li><p class="ds-markdown-paragraph"><strong>Стройте по обновленному, юридически и технически грамотному проекту.</strong></p></li></ol><p><strong>Вывод</strong></p><p class="ds-markdown-paragraph">Вносить изменения в типовой проект <strong>не просто можно, а нужно</strong>, чтобы получить дом, который идеально подходит именно вам. Но делать это следует <strong>грамотно и с привлечением специалистов</strong>. Экономия на профессиональной доработке проекта может вылиться в огромные затраты на переделку или, что хуже, в проблемы с безопасностью дома.</p></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0ae3a50 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0ae3a50" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-df11820" data-id="df11820" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-61d17d4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="61d17d4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a5dd16b" data-id="a5dd16b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0365b1f elementor-widget elementor-widget-image" data-id="0365b1f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img src="https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/2024/02/gormleyconstructionlogodesign_transparent_reverse-01-e1763477433135.png" title="GormleyConstructionLogoDesign_Transparent_Reverse-01" alt="GormleyConstructionLogoDesign_Transparent_Reverse-01" loading="lazy" />													</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-49aa992" data-id="49aa992" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0034e24 elementor-widget elementor-widget-heading" data-id="0034e24" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Остались вопросы ?
+</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fc1c72b elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="fc1c72b" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="9424"/>
+			<input type="hidden" name="form_id" value="fc1c72b"/>
+			<input type="hidden" name="referer_title" value="Страница не найдена" />
+
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_1 elementor-col-33 elementor-field-required elementor-mark-required">
+													<input size="1" type="text" name="form_fields[field_1]" id="form-field-field_1" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Ваше имя" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_5cf249b elementor-col-33 elementor-field-required elementor-mark-required">
+													<input size="1" type="text" name="form_fields[field_5cf249b]" id="form-field-field_5cf249b" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Номер телефона *" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-field_6686870 elementor-col-33 elementor-field-required elementor-mark-required">
+													<input size="1" type="email" name="form_fields[field_6686870]" id="form-field-field_6686870" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="email *" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_d5a3cfe elementor-col-100 elementor-field-required elementor-mark-required">
+					<textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[field_d5a3cfe]" id="form-field-field_d5a3cfe" rows="4" placeholder="Ваш вопрос" required="required" aria-required="true"></textarea>				</div>
+								<div class="elementor-field-type-checkbox elementor-field-group elementor-column elementor-field-group-field_df2980f elementor-col-100">
+					<div class="elementor-field-subgroup  elementor-subgroup-inline"><span class="elementor-field-option"><input type="checkbox" value="Я принимаю условия &lt;a href=&quot;/politika-konfidentsialnosti/&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;политики конфиденциальности&lt;/font&gt;&lt;/a&gt;" id="form-field-field_df2980f-0" name="form_fields[field_df2980f]"> <label for="form-field-field_df2980f-0">Я принимаю условия <a href="/politika-konfidentsialnosti/"><font color="#999999">политики конфиденциальности</font></a></label></span></div>				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span >
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Отправить</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e50e996 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e50e996" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ec8a547" data-id="ec8a547" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-66dd5e4 elementor-widget elementor-widget-heading" data-id="66dd5e4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Навигация</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d190c04 elementor-nav-menu__align-left elementor-nav-menu--dropdown-none elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget elementor-widget-nav-menu" data-id="d190c04" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
+				<ul id="menu-1-d190c04" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15625"><a href="https://stroybrigada-365.ru/" class="elementor-item">Главная</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15627"><a href="https://stroybrigada-365.ru/o-nas/" class="elementor-item">О нас</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15630"><a href="https://stroybrigada-365.ru/foto-rabot1/" class="elementor-item">Фото работ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15631"><a href="https://stroybrigada-365.ru/tseny/" class="elementor-item">Цены</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15626"><a href="https://stroybrigada-365.ru/kontakty/" class="elementor-item">Контакты</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15628"><a href="https://stroybrigada-365.ru/politika-konfidentsialnosti/" class="elementor-item">Политика конфиденциальности</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15634"><a href="https://stroybrigada-365.ru/soglasie-na-obrabotku-personalnyh-dannyh/" class="elementor-item">Согласие на обработку персональных данных</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15734"><a href="/lentochnyy-fundament-vsyo-chto-nuzhno-znat/" class="elementor-item">Полезные статьи</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-d190c04" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15625"><a href="https://stroybrigada-365.ru/" class="elementor-item" tabindex="-1">Главная</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15627"><a href="https://stroybrigada-365.ru/o-nas/" class="elementor-item" tabindex="-1">О нас</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15630"><a href="https://stroybrigada-365.ru/foto-rabot1/" class="elementor-item" tabindex="-1">Фото работ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15631"><a href="https://stroybrigada-365.ru/tseny/" class="elementor-item" tabindex="-1">Цены</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15626"><a href="https://stroybrigada-365.ru/kontakty/" class="elementor-item" tabindex="-1">Контакты</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15628"><a href="https://stroybrigada-365.ru/politika-konfidentsialnosti/" class="elementor-item" tabindex="-1">Политика конфиденциальности</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15634"><a href="https://stroybrigada-365.ru/soglasie-na-obrabotku-personalnyh-dannyh/" class="elementor-item" tabindex="-1">Согласие на обработку персональных данных</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15734"><a href="/lentochnyy-fundament-vsyo-chto-nuzhno-znat/" class="elementor-item" tabindex="-1">Полезные статьи</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7f93419" data-id="7f93419" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a8b84a2 elementor-widget elementor-widget-heading" data-id="a8b84a2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Услуги</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fc33d65 elementor-nav-menu__align-left elementor-nav-menu--dropdown-none elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget elementor-widget-nav-menu" data-id="fc33d65" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
+				<ul id="menu-1-fc33d65" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15619"><a href="https://stroybrigada-365.ru/otmostki/" class="elementor-item">Отмостки</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15617"><a href="https://stroybrigada-365.ru/montazh-krovli-i-stropil/" class="elementor-item">Монтаж кровли и стропил</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15621"><a href="https://stroybrigada-365.ru/stroitelstvo-pristroek/" class="elementor-item">Строительство пристроек</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15624"><a href="https://stroybrigada-365.ru/ustroystvo-fundamentov-otmostok-parkovok/" class="elementor-item">Фундаментные работы</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15620"><a href="https://stroybrigada-365.ru/stroitelstvo-zdaniy-i-otdelka/" class="elementor-item">Строительство зданий и отделка</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15618"><a href="https://stroybrigada-365.ru/otdelochnye-raboty-ustroystvo-styazhek-i-polov/" class="elementor-item">Отделочные работы устройство стяжек и полов</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15622"><a href="https://stroybrigada-365.ru/stroitelstvo-sten-derevyannyh-karkasnyh-kamennyh/" class="elementor-item">Строительство стен деревянных, каркасных, каменных</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15623"><a href="https://stroybrigada-365.ru/stroitelstvo-chastnyh-domov-kottedzhey-ban/" class="elementor-item">Строительство частных домов, коттеджей, бань</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-fc33d65" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15619"><a href="https://stroybrigada-365.ru/otmostki/" class="elementor-item" tabindex="-1">Отмостки</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15617"><a href="https://stroybrigada-365.ru/montazh-krovli-i-stropil/" class="elementor-item" tabindex="-1">Монтаж кровли и стропил</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15621"><a href="https://stroybrigada-365.ru/stroitelstvo-pristroek/" class="elementor-item" tabindex="-1">Строительство пристроек</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15624"><a href="https://stroybrigada-365.ru/ustroystvo-fundamentov-otmostok-parkovok/" class="elementor-item" tabindex="-1">Фундаментные работы</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15620"><a href="https://stroybrigada-365.ru/stroitelstvo-zdaniy-i-otdelka/" class="elementor-item" tabindex="-1">Строительство зданий и отделка</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15618"><a href="https://stroybrigada-365.ru/otdelochnye-raboty-ustroystvo-styazhek-i-polov/" class="elementor-item" tabindex="-1">Отделочные работы устройство стяжек и полов</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15622"><a href="https://stroybrigada-365.ru/stroitelstvo-sten-derevyannyh-karkasnyh-kamennyh/" class="elementor-item" tabindex="-1">Строительство стен деревянных, каркасных, каменных</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15623"><a href="https://stroybrigada-365.ru/stroitelstvo-chastnyh-domov-kottedzhey-ban/" class="elementor-item" tabindex="-1">Строительство частных домов, коттеджей, бань</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-10e7a12" data-id="10e7a12" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0651b8d elementor-widget elementor-widget-heading" data-id="0651b8d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Где нас найти</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ad9d18e elementor-align-right elementor-mobile-align-left elementor-tablet-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ad9d18e" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Москва</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="tel:+79777798777">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><g clip-path="url(#clip0_57_5)"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.2988 13.998C9.28912 13.9609 6.42758 13.5655 3.43072 10.5699C0.434554 7.57366 0.0397867 4.71341 0.00192265 3.70321C-0.0541722 2.16373 1.12522 0.668404 2.48762 0.0844363C2.65169 0.0136079 2.83135 -0.0133586 3.00898 0.00618291C3.18661 0.0257244 3.35611 0.0911026 3.50084 0.195902C4.62273 1.01332 5.39684 2.24995 6.06157 3.2223C6.20782 3.43593 6.27036 3.69589 6.23725 3.95264C6.20415 4.2094 6.07772 4.445 5.88206 4.61457L4.51405 5.63038C4.44796 5.67809 4.40143 5.74817 4.38312 5.8276C4.36481 5.90702 4.37595 5.99039 4.41448 6.06222C4.72441 6.62515 5.27554 7.4636 5.9066 8.09454C6.53837 8.72548 7.41626 9.31295 8.01857 9.65786C8.09409 9.70025 8.18298 9.71209 8.26697 9.69097C8.35096 9.66985 8.42367 9.61736 8.47014 9.54429L9.36064 8.18918C9.52436 7.97175 9.76588 7.82609 10.0346 7.7827C10.3033 7.73932 10.5784 7.80157 10.8023 7.95643C11.7888 8.63925 12.9402 9.39988 13.783 10.4788C13.8963 10.6245 13.9684 10.798 13.9918 10.9812C14.0151 11.1643 13.9887 11.3503 13.9155 11.5198C13.3286 12.889 11.8435 14.0548 10.2988 13.998Z" fill="white"></path></g><defs><clipPath id="clip0_57_5"><rect width="14" height="14" fill="white"></rect></clipPath></defs></svg>						</span>
+										<span class="elementor-icon-list-text">+7 (977) 779-87-77</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="http://+79777798777">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><g clip-path="url(#clip0_57_16)"><path d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7.7 7V3.5H6.3V8.4H10.5V7H7.7Z" fill="white"></path></g><defs><clipPath id="clip0_57_16"><rect width="14" height="14" fill="white"></rect></clipPath></defs></svg>						</span>
+										<span class="elementor-icon-list-text">8:00 - 22:00 ежедневно</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="http://+79777798777">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M11.9512 2.04167C10.6341 0.729166 8.87805 0 7.02439 0C3.17073 0 0.0487797 3.11111 0.0487797 6.95139C0.0487797 8.16667 0.390244 9.38194 0.97561 10.4028L0 14L3.70732 13.0278C4.73171 13.5625 5.85366 13.8542 7.02439 13.8542C10.878 13.8542 14 10.7431 14 6.90278C13.9512 5.10417 13.2683 3.35417 11.9512 2.04167ZM10.3902 9.43056C10.2439 9.81944 9.56097 10.2083 9.21951 10.2569C8.92683 10.3056 8.53659 10.3056 8.14634 10.2083C7.90244 10.1111 7.56098 10.0139 7.17073 9.81945C5.41463 9.09028 4.29268 7.34028 4.19512 7.19444C4.09756 7.09722 3.46342 6.27083 3.46342 5.39583C3.46342 4.52083 3.90244 4.13194 4.04878 3.9375C4.19512 3.74306 4.39024 3.74306 4.53658 3.74306C4.63415 3.74306 4.78049 3.74306 4.87805 3.74306C4.97561 3.74306 5.12195 3.69444 5.26829 4.03472C5.41463 4.375 5.7561 5.25 5.80488 5.29861C5.85366 5.39583 5.85366 5.49306 5.80488 5.59028C5.7561 5.6875 5.70731 5.78472 5.60975 5.88194C5.51219 5.97917 5.41463 6.125 5.36585 6.17361C5.26829 6.27083 5.17073 6.36805 5.26829 6.51389C5.36585 6.70833 5.70732 7.24305 6.2439 7.72917C6.92683 8.3125 7.46341 8.50695 7.65854 8.60417C7.85366 8.70139 7.95122 8.65278 8.04878 8.55556C8.14634 8.45833 8.48781 8.06945 8.58537 7.875C8.68293 7.68056 8.82927 7.72917 8.97561 7.77778C9.12195 7.82639 10 8.26389 10.1463 8.36111C10.3415 8.45833 10.439 8.50694 10.4878 8.55556C10.5366 8.70139 10.5366 9.04167 10.3902 9.43056Z" fill="white"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Написать в WhatsApp</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="5" r="3" fill="#6CA73D"></circle><path d="M7 0C5.40926 0.00165422 3.88418 0.581654 2.75935 1.61276C1.63452 2.64386 1.0018 4.04186 1 5.50006C1 10.2064 6.45455 13.7608 6.68705 13.9095C6.77876 13.9684 6.88802 14 7 14C7.11198 14 7.22124 13.9684 7.31295 13.9095C7.54545 13.7608 13 10.2064 13 5.50006C12.9982 4.04186 12.3655 2.64386 11.2406 1.61276C10.1158 0.581654 8.59075 0.00165422 7 0ZM7 3.50004C7.43152 3.50004 7.85335 3.61733 8.21215 3.8371C8.57095 4.05686 8.8506 4.36922 9.01574 4.73468C9.18087 5.10014 9.22408 5.50227 9.1399 5.89024C9.05571 6.27821 8.84791 6.63457 8.54278 6.91428C8.23765 7.19399 7.84888 7.38447 7.42565 7.46165C7.00242 7.53882 6.56373 7.49921 6.16505 7.34783C5.76638 7.19646 5.42563 6.94011 5.18588 6.61121C4.94614 6.2823 4.81818 5.89562 4.81818 5.50006C4.81818 4.96962 5.04805 4.4609 5.45722 4.08583C5.86639 3.71075 6.42135 3.50004 7 3.50004Z" fill="white"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Силикатная ул., 35, Мытищи. </span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="http://Stroydvor7788@mail.ru">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M12.8333 4.39551V9.91676C12.8333 10.3631 12.6628 10.7926 12.3565 11.1174C12.0503 11.4422 11.6316 11.6377 11.186 11.6638L11.0833 11.6668H2.91663C2.47025 11.6668 2.04074 11.4962 1.71597 11.19C1.39121 10.8838 1.19573 10.465 1.16954 10.0194L1.16663 9.91676V4.39551L6.67621 8.06876L6.74388 8.10726C6.82362 8.14622 6.9112 8.16647 6.99996 8.16647C7.08871 8.16647 7.1763 8.14622 7.25604 8.10726L7.32371 8.06876L12.8333 4.39551Z" fill="white"></path><path d="M11.0834 2.3335C11.7134 2.3335 12.2658 2.666 12.5738 3.16591L7.00002 6.88175L1.42627 3.16591C1.57253 2.92836 1.77348 2.72923 2.01235 2.58514C2.25122 2.44104 2.52109 2.35616 2.79944 2.33758L2.91669 2.3335H11.0834Z" fill="white"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Stroydvor7788@mail.ru</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-468887e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="468887e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0141f51" data-id="0141f51" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-95d387e elementor-widget elementor-widget-heading" data-id="95d387e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Политика конфиденциальности. Обращаем Ваше внимание на то, что данный сайт носит исключительно информационный характер, и ни при каких условиях не является публичной офертой определяемой положениями статьи 437 Гражданского кодекса Российской Федерации. Для получения более подробной информации об услугах и ценах, а также о стоимости строительства, обращайтесь к сотрудникам нашей организации по телефону.
+
+Copyright © 2013-2025. Использование материалов разрешено при условии наличия прямой активной ссылки на сайт.</p>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+							</div>
+				</div>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","https://quoflikitoquije.begetcdn.cloud/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>var pseudo_links = document.querySelectorAll(".pseudo-clearfy-link");for (var i=0;i<pseudo_links.length;i++ ) { pseudo_links[i].addEventListener("click", function(e){   window.open( e.target.getAttribute("data-uri") ); }); }</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108767903', 'ym');
+
+    ym(108767903, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/108767903" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+		<div data-elementor-type="popup" data-elementor-id="11194" class="elementor elementor-11194 elementor-location-popup" data-elementor-settings="{&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+					<div class="elementor-section-wrap">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-d354e5a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d354e5a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8c29370" data-id="8c29370" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5c58f87 elementor-widget elementor-widget-heading" data-id="5c58f87" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Заказать звонок</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fcd15ba elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="fcd15ba" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="11194"/>
+			<input type="hidden" name="form_id" value="fcd15ba"/>
+			<input type="hidden" name="referer_title" value="Страница не найдена" />
+
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
+													<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="✔  Ваше имя*">
+											</div>
+								<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+							<input size="1" type="tel" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="☏ Номер телефона*" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+
+						</div>
+								<div class="elementor-field-type-checkbox elementor-field-group elementor-column elementor-field-group-field_f180755 elementor-col-100">
+					<div class="elementor-field-subgroup  elementor-subgroup-inline"><span class="elementor-field-option"><input type="checkbox" value="Я принимаю условия &lt;a href=&quot;/politika-konfidentsialnosti/&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;политики конфиденциальности&lt;/font&gt;&lt;/a&gt;" id="form-field-field_f180755-0" name="form_fields[field_f180755]"> <label for="form-field-field_f180755-0">Я принимаю условия <a href="/politika-konfidentsialnosti/"><font color="#999999">политики конфиденциальности</font></a></label></span></div>				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span >
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Отправить</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+							</div>
+				</div>
+		<script src="https://quoflikitoquije.begetcdn.cloud/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js" id="smartmenus-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/stroybrigada-365.ru\/wp-admin\/admin-ajax.php","nonce":"de75ec085f","urls":{"assets":"https:\/\/stroybrigada-365.ru\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/stroybrigada-365.ru\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"ru_RU","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/stroybrigada-365.ru\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor-pro/assets/js/frontend.min.js" id="elementor-pro-frontend-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Facebook","shareOnTwitter":"\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Twitter","pinIt":"\u0417\u0430\u043f\u0438\u043d\u0438\u0442\u044c","download":"\u0421\u043a\u0430\u0447\u0430\u0442\u044c","downloadImage":"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435","fullscreen":"\u0412\u043e \u0432\u0435\u0441\u044c \u044d\u043a\u0440\u0430\u043d","zoom":"\u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435","share":"\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f","playVideo":"\u041f\u0440\u043e\u0438\u0433\u0440\u0430\u0442\u044c \u0432\u0438\u0434\u0435\u043e","previous":"\u041d\u0430\u0437\u0430\u0434","next":"\u0414\u0430\u043b\u0435\u0435","close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","a11yCarouselWrapperAriaLabel":"\u041a\u0430\u0440\u0443\u0441\u0435\u043b\u044c | \u0413\u043e\u0440\u0438\u0437\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u0440\u043e\u043a\u0440\u0443\u0442\u043a\u0430: \u0441\u0442\u0440\u0435\u043b\u043a\u0430 \u0432\u043b\u0435\u0432\u043e \u0438 \u0432\u043f\u0440\u0430\u0432\u043e","a11yCarouselPrevSlideMessage":"\u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0439 \u0441\u043b\u0430\u0439\u0434","a11yCarouselNextSlideMessage":"\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0441\u043b\u0430\u0439\u0434","a11yCarouselFirstSlideMessage":"\u042d\u0442\u043e \u043f\u0435\u0440\u0432\u044b\u0439 \u0441\u043b\u0430\u0439\u0434","a11yCarouselLastSlideMessage":"\u042d\u0442\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u0441\u043b\u0430\u0439\u0434","a11yCarouselPaginationBulletMessage":"\u041f\u0435\u0440\u0435\u0439\u0442\u0438 \u043a \u0441\u043b\u0430\u0439\u0434\u0443"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439 - \u043a\u043d\u0438\u0436\u043d\u0430\u044f \u043e\u0440\u0438\u0435\u043d\u0442\u0430\u0446\u0438\u044f","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439 - \u0430\u043b\u044c\u0431\u043e\u043c\u043d\u0430\u044f \u043e\u0440\u0438\u0435\u043d\u0442\u0430\u0446\u0438\u044f","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"\u041f\u043b\u0430\u043d\u0448\u0435\u0442 - \u043a\u043d\u0438\u0436\u043d\u0430\u044f \u043e\u0440\u0438\u0435\u043d\u0442\u0430\u0446\u0438\u044f","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"\u041f\u043b\u0430\u043d\u0448\u0435\u0442 - \u0430\u043b\u044c\u0431\u043e\u043c\u043d\u0430\u044f \u043e\u0440\u0438\u0435\u043d\u0442\u0430\u0446\u0438\u044f","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"\u041d\u043e\u0443\u0442\u0431\u0443\u043a","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"\u0428\u0438\u0440\u043e\u043a\u043e\u0444\u043e\u0440\u043c\u0430\u0442\u043d\u044b\u0435","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.19.3","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/stroybrigada-365.ru\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","active_breakpoints":["viewport_mobile","viewport_tablet"],"lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430 &#8212; \u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e, \u0440\u0435\u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f, \u0440\u0435\u043c\u043e\u043d\u0442, \u043e\u0442\u0434\u0435\u043b\u043a\u0430 \u0432 \u041c\u043e\u0441\u043a\u0432\u0435 \u0438 \u041c\u041e","excerpt":""}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js" id="pro-elements-handlers-js"></script>
+<script src="https://quoflikitoquije.begetcdn.cloud/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js" id="e-sticky-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://quoflikitoquije.begetcdn.cloud/wp-includes/js/wp-emoji-release.min.js"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://quoflikitoquije.begetcdn.cloud/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<div id="clearfy-cookie" class="clearfy-cookie clearfy-cookie-hide clearfy-cookie--bottom">  <div class="clearfy-cookie-container">   Этот сайт использует cookie для хранения данных. Продолжая использовать сайт,<b><u>
+</u> 
+<a href="/soglasie-na-obrabotku-personalnyh-dannyh/"><font color="#FFFFFF">Вы даете свое согласие на работу с этими файлами.</font></a></b>   <button id="clearfy-cookie-accept" class="clearfy-cookie-accept">OK</button>  </div></div><script>var cookie_clearfy_hide = document.cookie.replace(/(?:(?:^|.*;\s*)clearfy_cookie_hide\s*\=\s*([^;]*).*$)|^.*$/, "$1");if ( ! cookie_clearfy_hide.length ) {  document.getElementById("clearfy-cookie").classList.remove("clearfy-cookie-hide");} document.getElementById("clearfy-cookie-accept").onclick = function() { document.getElementById("clearfy-cookie").className += " clearfy-cookie-hide"; var clearfy_cookie_date = new Date(new Date().getTime() + 31536000 * 1000); document.cookie = "clearfy_cookie_hide=yes; path=/; expires=" + clearfy_cookie_date.toUTCString(); setTimeout(function() { document.getElementById("clearfy-cookie").parentNode.removeChild( document.getElementById("clearfy-cookie") ); }, 300);}</script>
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+CDN через quoflikitoquije.begetcdn.cloud
+
+Served from: stroybrigada-365.ru @ 2026-06-24 08:28:23 by W3 Total Cache
+-->
