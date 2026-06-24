@@ -998,3 +998,22 @@ box-shadow: 0px 0px 0px 2px #17b14b;
     background: -o-linear-gradient(left,#ff7402 0,#ffa700 100%);
     background: linear-gradient(to right,#ff7402 0,#ffa700 100%);
     color: #fff;}
+
+.footer .popup-window-close-icon,
+.footer .popup-window-titlebar-close-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.footer .popup-window-close-icon svg,
+.footer .popup-window-titlebar-close-icon svg {
+    width: 14px;
+    height: 14px;
+    display: block;
+}
