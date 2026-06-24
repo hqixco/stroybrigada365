@@ -1,0 +1,7 @@
+node_modules/
+.codex/
+.agents/
+.backups/
+.recovery-assets/
+.recovery-html/
+backup-*.zip

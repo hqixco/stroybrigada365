@@ -1,0 +1,26 @@
+﻿.site-body {
+    margin: 0;
+}
+
+.site-quiz-form {
+    display: block;
+}
+
+.form-error-tip {
+    display: inline-block;
+}
+
+.form-error-message {
+    display: inline-block;
+}
+
+.contact-method-tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu-text {
+    display: inline-block;
+}
+
