@@ -982,6 +982,25 @@ box-shadow: 0px 0px 0px 2px #17b14b;
     margin: 0 auto; 
     
 }
+@media (max-width: 767px) {
+    .small_form {
+        max-width: 100%;
+    }
+
+    .small_form .btn.btn-st0,
+    .small_form a.btn.btn-st0 {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        padding: 11px 14px 10px;
+        font-size: 12px;
+        line-height: 1.2;
+        border-radius: 10px;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        text-align: center;
+    }
+}
 
 .white-input {background:#fff!important;box-shadow:none!important;border: 2px solid #0DB25A!important;}
 .form-offer-commerc .modal-form-left {width:50%;}

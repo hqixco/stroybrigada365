@@ -43,7 +43,7 @@ img {
 .hero-section--stroitelstvo-fundamenta.hero-section--banner {
     background-image:
         linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.4) 45%, rgba(0, 0, 0, 0.60) 100%),
-        url(/assets/uploads/2026/06/stroitelstvo-fundamenta-hero.png) !important;
+        url(/assets/uploads/2026/06/stroitelstvo-fundamenta-hero.jpg) !important;
 }
 .hero-section--krovelnye-raboty.banner,
 .hero-section--krovelnye-raboty.hero-section--banner {
@@ -55,25 +55,25 @@ img {
 .hero-section--uteplenie-doma.hero-section--banner {
     background-image:
         linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.4) 45%, rgba(0, 0, 0, 0.60) 100%),
-        url(/assets/uploads/2026/06/uteplenie-doma-hero.png) !important;
+        url(/assets/uploads/2026/06/uteplenie-doma-hero.jpg) !important;
 }
 .hero-section--fasadnye-raboty.banner,
 .hero-section--fasadnye-raboty.hero-section--banner {
     background-image:
         linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.4) 45%, rgba(0, 0, 0, 0.60) 100%),
-        url(/assets/uploads/2026/06/fasadnye-raboty-hero.png) !important;
+        url(/assets/uploads/2026/06/fasadnye-raboty-hero.jpg) !important;
 }
 .hero-section--ukladka-bruschatki.banner,
 .hero-section--ukladka-bruschatki.hero-section--banner {
     background-image:
         linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.4) 45%, rgba(0, 0, 0, 0.60) 100%),
-        url(/assets/uploads/2026/06/ukladka-bruschatki-hero.png) !important;
+        url(/assets/uploads/2026/06/ukladka-bruschatki-hero.jpg) !important;
 }
 .hero-section--pristroyki.banner,
 .hero-section--pristroyki.hero-section--banner {
     background-image:
         linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.4) 45%, rgba(0, 0, 0, 0.60) 100%),
-        url(/assets/uploads/2026/06/pristroyki-hero.png) !important;
+        url(/assets/uploads/2026/06/pristroyki-hero.jpg) !important;
 }
 .hero-section--vostanovlenie-staryh-domov-i-dach.banner,
 .hero-section--vostanovlenie-staryh-domov-i-dach.hero-section--banner {
@@ -132,6 +132,13 @@ img {
 }
 .hero-section--pristroyki .hero-section__title {
     max-width: 75%;
+}
+@media (max-width: 991px) {
+    .hero-section--pristroyki .hero-section__title {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .hero-section--vostanovlenie-staryh-domov-i-dach.banner,
 .hero-section--vostanovlenie-staryh-domov-i-dach.hero-section--banner,
@@ -8518,8 +8525,11 @@ transform: translateY(-20px);
     font-size: 14px;
 }
   .services3  .decorative-item-title {
-    font-size: 17px;
+    font-size: 15px;
+    line-height: 1.15;
+    margin-bottom: 8px;
 }
+  .services3 .decorative-item-left {padding: 0 12px;}
     .services-item-img2 {
     height: auto!important;
     margin-bottom: 10px;
@@ -9789,6 +9799,19 @@ border-radius: 6px;
     }
 }
 
+@media (max-width: 480px) {
+    .site-section--gallery-secondary .works-section__gallery {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+
+    .site-section--gallery-secondary .works-section__gallery-item.active {
+        width: 50%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
 /* Callback section: scoped repair after gallery component restore */
 .site-section--callback {
     overflow: hidden;
@@ -10024,5 +10047,14 @@ border-radius: 6px;
 
     .site-form-consent__label {
         gap: 8px;
+    }
+
+    .price_badge {
+        top: 6px;
+        right: 6px;
+        font-size: 11px;
+        line-height: 1.15;
+        padding: 3px 7px;
+        border-radius: 7px;
     }
 }
