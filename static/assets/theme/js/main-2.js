@@ -656,31 +656,22 @@ $('input[type="file"]').on('change', function(){
     });	
 
 
-var $quizForm = $("#testForm");
-var $quizPhone = $quizForm.find('input[name="phone"]');
-
 $("#testForm").submit(function(e) {
     e.preventDefault();
     
 }).validate({
-    rules:{"phone":{ required:true, minlength: 10 }
+    rules:{"phone":{ required:true }
     },
-    submitHandler: function(form) {
-        var phoneValue = ($quizPhone.val() || '').toString().replace(/\D/g, '');
-        if (phoneValue.length < 10) {
-            $('.quizerrormes').show();
-            $quizPhone.trigger('focus');
-            return false;
-        }
+    submitHandler: function() {
     
         $('.quiz__final__btn__text').hide();
         $('.btn__load').show();
-        $('.btn.quiz__final__btn').prop('disabled', true);
-        $('.btn.quiz__final__btn').addClass('loading');
+        $('.btn quiz__final__btn').prop('disabled', true);
+        $('.btn quiz__final__btn').addClass('loading');
            
             $.ajax({
             url: myajax.url,
-            data: new FormData(form),
+            data: new FormData($('#testForm')[0]),
             processData: false,
             contentType: false,
             type: 'POST',

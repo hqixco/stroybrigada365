@@ -4,45 +4,43 @@
     timepicker.setAttribute('type', 'time');
   }
 
-  if (window.Fancybox) {
-    Fancybox.bind('[data-fancybox]', {
-      on: {
-        reveal: (_fancybox, slide) => {
-          const existingButton = slide.$content?.querySelector('.cost-btn');
-          if (existingButton) {
-            existingButton.remove();
-          }
+  const hasSubmitControl = (form) => Boolean(form.querySelector('button[type="submit"], input[type="submit"]'));
+  const shouldSkipConsent = (form) => form.matches('.portable-test-wrapper, .quiz__form');
+  const findConsentContainer = (form) => form.querySelector('.site-form-consent, .soglasie-form, .last-step-form__accept');
 
-          if (!slide.$content) {
-            return;
-          }
+  const getConsentMarkup = (checkboxId) => `
+    <div class="site-form-consent">
+      <label class="site-form-consent__label" for="${checkboxId}">
+        <input class="site-form-consent__checkbox" type="checkbox" id="${checkboxId}" name="privacy_agreement" value="1" required checked>
+        <span class="site-form-consent__text">Соглашаюсь с <a href="/policy/" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a> и обработкой персональных данных</span>
+      </label>
+    </div>
+  `;
 
-          const costButton = document.createElement('a');
-          costButton.href = '#';
-          costButton.className = 'cost-btn';
-          costButton.setAttribute('data-remodal-target', 'price');
-          costButton.textContent = 'Узнать стоимость этого объекта';
+  document.querySelectorAll('form').forEach((form, index) => {
+    if (!hasSubmitControl(form) || shouldSkipConsent(form)) {
+      return;
+    }
 
-          const captionText = slide.$caption ? slide.$caption.textContent.trim() : '';
-          if (captionText) {
-            costButton.setAttribute('data-number', captionText);
-          }
+    const checkboxId = `site-form-consent-${index + 1}`;
+    const consentContainer = findConsentContainer(form);
 
-          const imageSrc = slide.src || slide.$trigger?.getAttribute('href') || '';
-          if (imageSrc) {
-            costButton.setAttribute('data-link', imageSrc);
-          }
+    if (consentContainer) {
+      consentContainer.classList.add('site-form-consent');
+      consentContainer.innerHTML = `
+        <label class="site-form-consent__label" for="${checkboxId}">
+          <input class="site-form-consent__checkbox" type="checkbox" id="${checkboxId}" name="privacy_agreement" value="1" required checked>
+          <span class="site-form-consent__text">Соглашаюсь с <a href="/policy/" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a> и обработкой персональных данных</span>
+        </label>
+      `;
+      return;
+    }
 
-          costButton.addEventListener('click', (event) => {
-            event.preventDefault();
-            Fancybox.close();
-          });
-
-          slide.$content.appendChild(costButton);
-        }
-      }
-    });
-  }
+    const submitControl = form.querySelector('.form-button, .last-step-form, button[type="submit"], input[type="submit"]');
+    if (submitControl) {
+      submitControl.insertAdjacentHTML('afterend', getConsentMarkup(checkboxId));
+    }
+  });
 
   const openPriceModal = (numberValue, linkValue) => {
     const numberInput = document.querySelector('input[name="number-foto"]');
@@ -67,7 +65,7 @@
   };
 
   document.addEventListener('click', (event) => {
-    const costButton = event.target.closest('.cost-btn, .btn-small-cost');
+    const costButton = event.target.closest('.btn-small-cost');
     if (!costButton) {
       return;
     }

@@ -26,32 +26,6 @@
 	line-height: calc(24 / 20);
 }
 
-.geolocation.footer__geo {
-	margin-top: 8px;
-	max-width: 100%;
-}
-
-.geolocation__link {
-	display: inline-flex;
-	align-items: center;
-	gap: 8px;
-	max-width: 100%;
-	width: auto;
-	min-width: 0;
-	white-space: normal;
-	line-height: 1.2;
-}
-
-.geolocation__link svg {
-	flex: 0 0 auto;
-	width: 14px;
-	height: 14px;
-}
-
-.footer__geo-value {
-	min-width: 0;
-}
-
 .footer__col:nth-child(2) .footer__text a{
 	color: #fff;
 	transition: .5s;
@@ -539,6 +513,18 @@ box-shadow: 0px 0px 0px 2px #17b14b;
     box-shadow:none;
 }
 
+.callback_block .form-callback__form_h .form-input input[type="tel"] {
+    padding-top: 22px;
+}
+
+.callback_block .form-callback__form_h .form-input input[type="tel"] + span.placeholder {
+    font-size: 12px !important;
+    top: 5px !important;
+    left: 20px !important;
+    padding: 0 !important;
+    transform: none !important;
+}
+
 .form-callback__form_h.modal-form_form input[type="tel"]::placeholder {
     text-shadow: none;
 }
@@ -686,23 +672,6 @@ box-shadow: 0px 0px 0px 2px #17b14b;
     top: 10px;
     left: 30px;
     padding: 0;
-}
-
-.form-input input[type="tel"] + span.placeholder {
-    font-size: 12px;
-    top: 10px;
-    left: 30px;
-    padding: 0;
-    transform: none;
-}
-
-.form-input input[type="tel"]:focus + span.placeholder,
-.form-input input[type="tel"]:not(:placeholder-shown) + span.placeholder {
-    font-size: 12px;
-    top: 10px;
-    left: 30px;
-    padding: 0;
-    transform: none;
 }
 
 .form-callback__form_h .btn-ico {
@@ -1070,21 +1039,41 @@ box-shadow: 0px 0px 0px 2px #17b14b;
     padding-top: 22px;
 }
 
-.footer .popup-window-close-icon,
-.footer .popup-window-titlebar-close-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    font-size: 0;
-    line-height: 0;
-    overflow: hidden;
+.footer .geolocation {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
 }
 
-.footer .popup-window-close-icon svg,
-.footer .popup-window-titlebar-close-icon svg {
-    width: 14px;
-    height: 14px;
-    display: block;
+.footer .geolocation__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: max-content;
+    max-width: 100%;
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+.footer .geolocation__link svg {
+    width: 10px;
+}
+
+.footer .geolocation__link span {
+    min-width: 0;
+}
+
+.footer #cityChange.popup-window {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.footer #cityChange.popup-window.is-open,
+.footer #cityChange.popup-window[style*="display: block"] {
+    position: fixed;
 }

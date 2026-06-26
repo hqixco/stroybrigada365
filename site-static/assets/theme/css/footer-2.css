@@ -26,32 +26,6 @@
 	line-height: calc(24 / 20);
 }
 
-.geolocation.footer__geo {
-	margin-top: 8px;
-	max-width: 100%;
-}
-
-.geolocation__link {
-	display: inline-flex;
-	align-items: center;
-	gap: 8px;
-	max-width: 100%;
-	width: auto;
-	min-width: 0;
-	white-space: normal;
-	line-height: 1.2;
-}
-
-.geolocation__link svg {
-	flex: 0 0 auto;
-	width: 14px;
-	height: 14px;
-}
-
-.footer__geo-value {
-	min-width: 0;
-}
-
 .footer__col:nth-child(2) .footer__text a{
 	color: #fff;
 	transition: .5s;
@@ -688,23 +662,6 @@ box-shadow: 0px 0px 0px 2px #17b14b;
     padding: 0;
 }
 
-.form-input input[type="tel"] + span.placeholder {
-    font-size: 12px;
-    top: 10px;
-    left: 30px;
-    padding: 0;
-    transform: none;
-}
-
-.form-input input[type="tel"]:focus + span.placeholder,
-.form-input input[type="tel"]:not(:placeholder-shown) + span.placeholder {
-    font-size: 12px;
-    top: 10px;
-    left: 30px;
-    padding: 0;
-    transform: none;
-}
-
 .form-callback__form_h .btn-ico {
     width: 40px;
     height: 40px;
@@ -1068,23 +1025,4 @@ box-shadow: 0px 0px 0px 2px #17b14b;
 
 .hero-section .form-input input[type="tel"] {
     padding-top: 22px;
-}
-
-.footer .popup-window-close-icon,
-.footer .popup-window-titlebar-close-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    font-size: 0;
-    line-height: 0;
-    overflow: hidden;
-}
-
-.footer .popup-window-close-icon svg,
-.footer .popup-window-titlebar-close-icon svg {
-    width: 14px;
-    height: 14px;
-    display: block;
 }

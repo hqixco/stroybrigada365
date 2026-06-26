@@ -54,10 +54,133 @@ $('.site-header__contacts').mouseleave(function (event) {
     $(this).find('.site-header__contacts-bottom').removeClass('active')
 });
 
+function normalizeInternalTrailingSlash(linkUrl) {
+    if (!linkUrl || linkUrl.indexOf('javascript:') === 0 || linkUrl.indexOf('mailto:') === 0 || linkUrl.indexOf('tel:') === 0) {
+        return linkUrl;
+    }
 
+    try {
+        var url = new URL(linkUrl, window.location.origin);
+        var pathname = url.pathname;
+        var lastSegment = pathname.split('/').pop();
 
+        if (url.origin !== window.location.origin || pathname === '/' || pathname.endsWith('/') || lastSegment.indexOf('.') !== -1) {
+            return url.toString();
+        }
+
+        url.pathname = pathname + '/';
+        return url.toString();
+    } catch (error) {
+        return linkUrl;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+        var href = link.getAttribute('href');
+
+        if (!href || href.charAt(0) === '#') {
+            return;
+        }
+
+        link.setAttribute('href', normalizeInternalTrailingSlash(href));
+    });
+});
+
+document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href]');
+
+    if (!link) {
+        return;
+    }
+
+    var href = link.getAttribute('href');
+    if (!href || href.charAt(0) === '#') {
+        return;
+    }
+
+    link.setAttribute('href', normalizeInternalTrailingSlash(href));
+});
+     
+     
+     
+    jQuery(function ($) {
+        var consentText = 'Соглашаюсь с <a href="/policy/" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a> и обработкой персональных данных';
+
+        $('form').each(function (index) {
+            var $form = $(this);
+            var $existingConsent = $form.find('.site-form-consent, .soglasie-form, .last-step-form__accept').first();
+
+            if ($form.is('.portable-test-wrapper, .quiz__form') && !$existingConsent.length) {
+                return;
+            }
+
+            if (!$form.find('button[type="submit"], input[type="submit"]').length) {
+                return;
+            }
+
+            var checkboxId = 'site-form-consent-' + (index + 1);
+            var consentMarkup = '<label class="site-form-consent__label" for="' + checkboxId + '">' +
+                '<input class="site-form-consent__checkbox" type="checkbox" id="' + checkboxId + '" name="privacy_agreement" value="1" required checked>' +
+                '<span class="site-form-consent__text">' + consentText + '</span>' +
+            '</label>';
+            var $consent = $existingConsent;
+
+            if ($consent.length) {
+                $consent.addClass('site-form-consent').html(consentMarkup);
+                return;
+            }
+
+            var $anchor = $form.find('.form-button, .last-step-form').last();
+            if (!$anchor.length) {
+                $anchor = $form.find('button[type="submit"], input[type="submit"]').last();
+            }
+
+            if ($anchor.length) {
+                $('<div class="site-form-consent">' + consentMarkup + '</div>').insertAfter($anchor);
+            }
+        });
+
+        $(document).on('submit', 'form', function (event) {
+            var form = this;
+
+            if ($(form).is('.portable-test-wrapper, .quiz__form') && !form.querySelector('input[name="privacy_agreement"]')) {
+                return;
+            }
+
+            var consentCheckbox = form.querySelector('input[name="privacy_agreement"]');
+            if (consentCheckbox && !consentCheckbox.checked) {
+                event.preventDefault();
+                consentCheckbox.reportValidity();
+            }
+        });
+    });
 
 $(document).ready(function(){
+    function loadSharedTestimonials() {
+        var testimonialsSection = document.querySelector('.testimonials-section');
+        if (!testimonialsSection) {
+            return;
+        }
+
+        try {
+            var request = new XMLHttpRequest();
+            request.open('GET', '/assets/partials/site-testimonials.html', false);
+            request.send(null);
+
+            var isSuccess = (request.status >= 200 && request.status < 300) || request.status === 0;
+            if (!isSuccess || !request.responseText) {
+                throw new Error('Unexpected status ' + request.status);
+            }
+
+            testimonialsSection.outerHTML = request.responseText;
+        } catch (error) {
+            console.error('Failed to load shared testimonials:', error);
+        }
+    }
+
+    loadSharedTestimonials();
+
     var referenceContacts = {
         phoneText: '+7 (977) 779-87-77',
         phoneHref: 'tel:+79777798777',
@@ -656,31 +779,22 @@ $('input[type="file"]').on('change', function(){
     });	
 
 
-var $quizForm = $("#testForm");
-var $quizPhone = $quizForm.find('input[name="phone"]');
-
 $("#testForm").submit(function(e) {
     e.preventDefault();
     
 }).validate({
-    rules:{"phone":{ required:true, minlength: 10 }
+    rules:{"phone":{ required:true }
     },
-    submitHandler: function(form) {
-        var phoneValue = ($quizPhone.val() || '').toString().replace(/\D/g, '');
-        if (phoneValue.length < 10) {
-            $('.quizerrormes').show();
-            $quizPhone.trigger('focus');
-            return false;
-        }
+    submitHandler: function() {
     
         $('.quiz__final__btn__text').hide();
         $('.btn__load').show();
-        $('.btn.quiz__final__btn').prop('disabled', true);
-        $('.btn.quiz__final__btn').addClass('loading');
+        $('.btn quiz__final__btn').prop('disabled', true);
+        $('.btn quiz__final__btn').addClass('loading');
            
             $.ajax({
             url: myajax.url,
-            data: new FormData(form),
+            data: new FormData($('#testForm')[0]),
             processData: false,
             contentType: false,
             type: 'POST',
@@ -799,6 +913,23 @@ x[i].checked = false;
             });
         });
     }
+
+    function enhancePopupPhonePlaceholders() {
+        $('.remodal .form-input input[type="tel"], .remodal .form-input input[name="phone"]').each(function () {
+            var $field = $(this);
+            var $next = $field.next('span.placeholder');
+
+            if (!$next.length) {
+                $field.attr('placeholder', ' ');
+                $('<span class="placeholder">Контактный телефон *</span>').insertAfter($field);
+                return;
+            }
+
+            $field.attr('placeholder', ' ');
+        });
+    }
+
+    enhancePopupPhonePlaceholders();
 
     bindPhoneMask('input[type="tel"], input[name="phone"]');
   

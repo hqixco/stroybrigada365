@@ -2970,7 +2970,7 @@ display: block;
 
 .form__bottom {
     z-index: 1;
-    background: url(../callback-bg.jpg) center;
+    background: url(../bg-bgb.jpg) center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -2989,59 +2989,6 @@ display: block;
 
 .form__bottom.top_white:before, .phone_block.top_white:before {
     background-image: linear-gradient(180deg, #fff, transparent);
-}
-
-@media (min-width: 768px) {
-    .callback--bottom,
-    .callback.form__bottom {
-        height: 700px;
-        min-height: 700px;
-        overflow: hidden;
-    }
-
-    .callback--bottom .container,
-    .callback--bottom .callback__inner,
-    .callback--bottom .callback__layout,
-    .callback.form__bottom .container,
-    .callback.form__bottom .callback__inner,
-    .callback.form__bottom .callback__layout {
-        height: 100%;
-    }
-
-    .callback__aside,
-    .callback .col-xl-5 {
-        display: flex;
-        position: relative;
-        overflow: hidden;
-        min-height: 0;
-        align-items: flex-end;
-        justify-content: center;
-    }
-
-    .callback__visual,
-    .callback .left_man {
-        position: relative;
-        width: 100%;
-        max-width: 420px;
-        margin: auto 0 0;
-        transform: none;
-    }
-
-    .callback__visual-img,
-    .callback .left_man img {
-        display: block;
-        max-width: 100%;
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        object-fit: contain;
-        object-position: center bottom;
-    }
-
-    .callback__text,
-    .callback .right_form_text.mlg {
-        margin-bottom: 0;
-    }
 }
 
 .zayavka_d {
@@ -3213,82 +3160,6 @@ border-radius:10px;
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
-}
-
-.works-section__gallery-image::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 46%;
-    border-radius: 10px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 100%);
-    pointer-events: none;
-    z-index: 1;
-}
-
-.works-section__gallery-title {
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 14px;
-    z-index: 2;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.2;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
-    pointer-events: none;
-}
-
-.works-section__gallery-title br {
-    display: none;
-}
-
-.works-section__gallery-copy {
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 14px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    pointer-events: none;
-}
-
-.works-section__gallery-copy .works-section__gallery-title {
-    position: static;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    width: auto;
-    font-size: 16px;
-    line-height: 1.15;
-}
-
-.works-section__gallery-desc {
-    color: rgba(255, 255, 255, 0.92);
-    font-size: 12px;
-    line-height: 1.35;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
-}
-
-@media (max-width: 767px) {
-    .works-section__gallery-copy {
-        left: 12px;
-        right: 12px;
-        bottom: 10px;
-    }
-
-    .works-section__gallery-copy .works-section__gallery-title {
-        font-size: 14px;
-    }
-
-    .works-section__gallery-desc {
-        font-size: 11px;
-    }
 }
 .works-section.full_gallery .works-section__gallery-image,.works-section.full_gallery .works-section__gallery-item img.preview {
 
@@ -4949,6 +4820,7 @@ text-align: right;
 .btn-st0:hover,
 .btn-next:hover,
 .btn-back:hover,
+.bt-back:hover,
 .form-button__button:hover,
 .contact-btn:hover,
 .button-bg:hover,
@@ -4966,10 +4838,6 @@ text-align: right;
     transform: translateY(-2px);
     filter: brightness(1.04);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.16);
-}
-
-.bt-back:hover {
-    transform: none;
 }
 
 .btn-border-green {
@@ -7330,7 +7198,6 @@ font-size: 14px;
   
     
 }
-.callback--bottom,
 .callback {background-position: bottom center;}
 
 .portfolio {
@@ -8019,8 +7886,7 @@ transform: translateY(-20px);
   right: 0;
   bottom: 0;
   display: block;
-  background: rgba(0, 0, 0, 0.3);
-  pointer-events: none;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(29 35 39 / 70%) 100%);
 }
 .services__content {
   position: relative;
@@ -8199,7 +8065,6 @@ transform: translateY(-20px);
 
     border: 7px solid #0DB25A;
 }
-    .callback--bottom:after,
     .callback.form__bottom:after {display:none;}
     .vantages-item {    height: 200px;}
     .vantages-item {
@@ -8892,31 +8757,11 @@ border-radius: 10px;
     .mlg {
     margin-bottom: 25px;
 }
-    .callback__visual,
-    .left_man {
-    max-width: 340px;
-    margin: 0 auto -18%;
-    position: relative;
-    z-index: 2;
-}
-    .callback__visual img,
-    .left_man img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+    .left_man {max-width: 340px;
+    margin: 0 auto;}
     .ordering-item-img {
     background: #F2F4F8!important;}
-    .callback__text,
-    .right_form_text {
-    position: relative;
-    z-index: 3;
-    padding:30px 20px;
-    background:#fff;
-    border-top-right-radius:5px;
-    border-top-left-radius:5px
-}
-.callback__text .white-input,
+    .right_form_text {padding:30px 20px;background:#fff;border-top-right-radius:5px;border-top-left-radius:5px}
 .right_form_text .white-input {
     background-color: #f4f4f4!important;
     box-shadow: inset 4px 4px 10px rgb(0 0 0 / 5%)!important;
@@ -9190,32 +9035,6 @@ border-radius: 10px;
 #price table td, #price table th {padding: .75rem;vertical-align: top;border-top: 1px solid #dee2e6;}
 #price tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, .05);}
 #price table {width: 100%;margin-bottom: 1rem;color: #212529;border-collapse: collapse;}
-@media (max-width: 480px) {
-  #price table {
-    table-layout: fixed;
-  }
-
-  #price table th:nth-child(1),
-  #price table td:nth-child(1) {
-    width: 50%;
-  }
-
-  #price table th:nth-child(2),
-  #price table td:nth-child(2) {
-    width: 20%;
-  }
-
-  #price table th:nth-child(3),
-  #price table td:nth-child(3) {
-    width: 30%;
-  }
-
-  #price table th,
-  #price table td {
-    white-space: normal;
-    word-break: break-word;
-  }
-}
 /* Hide while zooming */
 .fancybox-is-scaling .fancybox-extra {
   display: none;
@@ -9245,11 +9064,10 @@ border-radius: 10px;
             transform: translateY(-2px);
             box-shadow: 0 6px 16px rgba(231, 76, 60, 0.4);
         }
-.number {
+        .number {
     position: absolute;
     left: 5px;
     top: 5px;
-    z-index: 3;
     background: #fff;
     width: 30px;
     height: 30px;

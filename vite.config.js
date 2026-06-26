@@ -15,6 +15,7 @@ export default defineConfig({
         policy: resolve(__dirname, 'policy/index.html'),
         pristroyki: resolve(__dirname, 'pristroyki/index.html'),
         stroitelstvoFundamenta: resolve(__dirname, 'stroitelstvo-fundamenta/index.html'),
+        stroitelstvoRekonstrukciyaDomov: resolve(__dirname, 'stroitelstvo-rekonstrukciya-domov/index.html'),
         ukladkaBruschatki: resolve(__dirname, 'ukladka-bruschatki/index.html'),
         ustrojstvoOtmostki: resolve(__dirname, 'ustrojstvo-otmostki-vokrug-doma/index.html'),
         uteplenieDoma: resolve(__dirname, 'uteplenie-doma/index.html')
