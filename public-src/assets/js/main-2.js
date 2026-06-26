@@ -239,15 +239,12 @@ $(document).ready(function(){
 
     
     $('.time_choose_radio input').click(function(){
-        console.log('111');
     if ($('.time_choose_radio .wpcf7-list-item.last input').is(":checked")) {
         $('.time_choose').show();
-        console.log('112');
     } 
     
     else {
         $('.time_choose').hide();
-        console.log('113');
         
     }
         
@@ -769,45 +766,12 @@ $('input[type="file"]').on('change', function(){
         countFiles = this.files.length;
 	  var box = $(this).closest('.quiz__file-label');
 	  var filesText = $(box).find('.quiz__file__text');
-	  console.log(box)
-	  console.log(filesText)
       if (countFiles)
         $(filesText).html('Выбрано файлов: ' + countFiles)
       else {
 		$(filesText).html('Загрузите файл');
 	  }
     });	
-
-
-$("#testForm").submit(function(e) {
-    e.preventDefault();
-    
-}).validate({
-    rules:{"phone":{ required:true }
-    },
-    submitHandler: function() {
-    
-        $('.quiz__final__btn__text').hide();
-        $('.btn__load').show();
-        $('.btn quiz__final__btn').prop('disabled', true);
-        $('.btn quiz__final__btn').addClass('loading');
-           
-            $.ajax({
-            url: myajax.url,
-            data: new FormData($('#testForm')[0]),
-            processData: false,
-            contentType: false,
-            type: 'POST',
-            success: function (response) {
-                
-              	testSlider.goToSlide( $('.step-slide').length - 1 );
-						$('.site-strip').slideUp(300);
-						$('.quiz-form__progress').slideUp(300);
-            }
-        });
-        return false;  //This doesn't prevent the form from submitting.
-    }
-});
 
 });
 
@@ -825,6 +789,8 @@ x[i].checked = false;
             var $field = $(this);
             var input = this;
             var prefixLength = 4;
+
+            $field.off('.phoneMask');
 
             function formatPhoneValue(rawValue) {
                 var digits = String(rawValue || "").replace(/\D/g, "");
@@ -882,13 +848,13 @@ x[i].checked = false;
 
             $field.attr("placeholder", "+7 (___) ___-__-__");
 
-            $field.on("focus click", function () {
+            $field.on("focus.phoneMask click.phoneMask", function () {
                 if (!this.value) {
                     setTimeout(placeCaretAtInputStart, 0);
                 }
             });
 
-            $field.on("keydown", function (event) {
+            $field.on("keydown.phoneMask", function (event) {
                 var key = event.key;
                 var caret = typeof this.selectionStart === "number" ? this.selectionStart : prefixLength;
                 var isDigit = /^[0-9]$/.test(key);
@@ -903,9 +869,9 @@ x[i].checked = false;
                 }
             });
 
-            $field.on("input", syncValue);
+            $field.on("input.phoneMask", syncValue);
 
-            $field.on("paste", function () {
+            $field.on("paste.phoneMask", function () {
                 var self = this;
                 setTimeout(function () {
                     self.value = formatPhoneValue(self.value);
@@ -932,138 +898,364 @@ x[i].checked = false;
     enhancePopupPhonePlaceholders();
 
     bindPhoneMask('input[type="tel"], input[name="phone"]');
-  
-  $('.form-callback__form_o').submit(function(e){
-        e.preventDefault();
-        var form=new FormData(this);
-        var data =  $('.form-callback__form_o').serialize();
-        data += '&id=' + myajax.id;
-        var action = 'form';
-        data += '&action=' + action;
-        form.append('action', 'form');
-        form.append('id', myajax.id);
-        $submit_btn = $('.form-callback__form_o .form-button__button'),
 
+    function normalizeLeadValue(value) {
+        return String(value == null ? '' : value).replace(/\s+/g, ' ').trim();
+    }
 
-        $.ajax({
-            url: myajax.url,
-            data: form,
-            type: 'POST',
-            processData:!1,
-            contentType:!1,
-            beforeSubmit: function (xhr) {
-            // При отправке формы меняем надпись на кнопке
-            $submit_btn.val('Отправляем...');
-            },
-            success: function (response) {
-               
-           
-               var inst = $.remodal.lookup[$('[data-remodal-id=sent]').data('remodal')];
-                inst.open();
-            $('.form-callback__form_o')[0].reset();
-            },
-            error: function (request, status, error) {
-                $submit_btn.val('Что-то пошло не так...');
+    function getStorageAvailable(storageName) {
+        try {
+            var storage = window[storageName];
+            var probeKey = '__storage_probe__';
+            storage.setItem(probeKey, '1');
+            storage.removeItem(probeKey);
+            return storage;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    var leadStorage = getStorageAvailable('localStorage') || getStorageAvailable('sessionStorage');
+    var leadAttributionKey = 'stroybrigada365_attribution';
+    var leadCounterId = 93304527;
+    var leadGoalName = 'form_submit';
+    var leadSuccessMessage = 'Заявка успешно отправлена, мы свяжемся с Вами в ближайшее время';
+    var leadErrorMessage = 'Не удалось отправить заявку. Повторите попытку или свяжитесь с нами по телефону.';
+
+    function readStoredAttribution() {
+        if (!leadStorage) {
+            return {};
+        }
+
+        try {
+            return JSON.parse(leadStorage.getItem(leadAttributionKey) || '{}') || {};
+        } catch (error) {
+            return {};
+        }
+    }
+
+    function persistAttribution() {
+        if (!leadStorage) {
+            return readStoredAttribution();
+        }
+
+        var url = new URL(window.location.href);
+        var stored = readStoredAttribution();
+        var keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'yclid'];
+
+        keys.forEach(function (key) {
+            var value = normalizeLeadValue(url.searchParams.get(key));
+            if (value) {
+                stored[key] = value;
             }
         });
-    });
-    $('.form-callback__form').submit(function(e){
-        e.preventDefault();
-        var form=new FormData(this);
-        var data =  $('.form-callback__form').serialize();
-        data += '&id=' + myajax.id;
-        var action = 'form';
-        data += '&action=' + action;
-        form.append('action', 'form');
-        form.append('id', myajax.id);
-        $submit_btn = $('.form-callback__form .form-button__button'),
 
+        leadStorage.setItem(leadAttributionKey, JSON.stringify(stored));
+        return stored;
+    }
 
-        $.ajax({
-            url: myajax.url,
-            data: form,
-            type: 'POST',
-            processData:!1,
-            contentType:!1,
-            beforeSubmit: function (xhr) {
-            // При отправке формы меняем надпись на кнопке
-            $submit_btn.val('Отправляем...');
-            },
-            success: function (response) {
-               
-           
-               var inst = $.remodal.lookup[$('[data-remodal-id=sent]').data('remodal')];
-                inst.open();
-            $('.form-callback__form')[0].reset();
-            },
-            error: function (request, status, error) {
-                $submit_btn.val('Что-то пошло не так...');
+    function addHoneypotFields() {
+        $('form').each(function () {
+            var $form = $(this);
+            if ($form.find('input[name="website"]').length) {
+                return;
             }
-        });
-    });
-    
-    $('.form-callback__form_h').submit(function(e){
-        e.preventDefault();
-      
-        var data =  $(this).closest('.form-callback__form_h').serialize();
-                    data += '&id=' + myajax.id;
-                    var action = 'form';
-                    data += '&action=' + action;
-		  
-        $.ajax({
-            url: myajax.url,
-            data: data,
-            type: 'POST',
-            success: function (response) {
-               
-                var inst = $.remodal.lookup[$('[data-remodal-id=sent]').data('remodal')];
-                inst.open();
-            }
-        });
-    });
-    
-    
-    $('.form-callback__form_v').submit(function(e){
-        e.preventDefault();
-      
-        var data =  $(this).closest('.form-callback__form_v').serialize();
-                    data += '&id=' + myajax.id;
-                    var action = 'form';
-                    data += '&action=' + action;
-		  
-        $.ajax({
-            url: myajax.url,
-            data: data,
-            type: 'POST',
-            success: function (response) {
-               
-                var inst = $.remodal.lookup[$('[data-remodal-id=sent]').data('remodal')];
-                inst.open();
-            }
-        });
-    });
-    
-     $('.form-callback__form_v1').submit(function(e){
-        e.preventDefault();
-      
-        var data =  $(this).closest('.form-callback__form_v1').serialize();
-                    data += '&id=' + myajax.id;
-                    var action = 'form';
-                    data += '&action=' + action;
-		  
-        $.ajax({
-            url: myajax.url,
-            data: data,
-            type: 'POST',
-            success: function (response) {
-               
-                var inst = $.remodal.lookup[$('[data-remodal-id=sent]').data('remodal')];
-                inst.open();
-            }
-        });
-    });
-    
 
-    
-    
-    
+            $('<div class="site-form-honeypot" aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">' +
+                '<input type="text" name="website" tabindex="-1" autocomplete="off">' +
+            '</div>').prependTo($form);
+        });
+    }
+
+    function ensureStatusNode($form) {
+        var $status = $form.find('.site-form-status').first();
+        if ($status.length) {
+            return $status;
+        }
+
+        $status = $('<div class="site-form-status" aria-live="polite"></div>');
+        var $anchor = $form.find('.site-form-consent, .soglasie-form, .last-step-form__accept, .form-button').last();
+        if ($anchor.length) {
+            $status.insertAfter($anchor);
+        } else {
+            $form.append($status);
+        }
+
+        return $status;
+    }
+
+    function setFormStatus($form, message, isError) {
+        var $status = ensureStatusNode($form);
+        $status.text(message || '');
+        $status.toggleClass('site-form-status_error', !!isError);
+        $status.toggleClass('site-form-status_success', !isError && !!message);
+    }
+
+    function getSuccessMarkup(message) {
+        return '' +
+            '<div class="site-form-success" aria-live="polite">' +
+                '<div class="site-form-success__icon" aria-hidden="true"></div>' +
+                '<div class="site-form-success__title">Заявка успешно отправлена</div>' +
+                '<div class="site-form-success__text">' + message + '</div>' +
+            '</div>';
+    }
+
+    function showInlineSuccess($form, message) {
+        if ($form.hasClass('is-submitted-success')) {
+            return;
+        }
+
+        $form.children().addClass('site-form-success-hidden');
+        $form.addClass('is-submitted-success');
+        $form.append(getSuccessMarkup(message));
+    }
+
+    function restoreInlineSuccess($form) {
+        if (!$form.hasClass('is-submitted-success')) {
+            return;
+        }
+
+        $form.removeClass('is-submitted-success');
+        $form.children('.site-form-success').remove();
+        $form.children('.site-form-success-hidden').removeClass('site-form-success-hidden');
+        $form.find('.site-form-status').remove();
+        if ($form[0]) {
+            $form[0].reset();
+        }
+        enhancePopupPhonePlaceholders();
+        bindPhoneMask($form.find('input[type="tel"], input[name="phone"]'));
+    }
+
+    function getFormName($form) {
+        var explicitName = normalizeLeadValue($form.data('formName'));
+        var hiddenName = normalizeLeadValue($form.find('input[name="formData"]').first().val());
+        var sourceId = normalizeLeadValue($form.find('input[name="source_id"]').first().val());
+        var modalId = normalizeLeadValue($form.closest('[data-remodal-id]').data('remodalId'));
+
+        if ($form.is('#testForm')) {
+            return 'Квиз: ' + (sourceId || document.title);
+        }
+
+        return explicitName || hiddenName || modalId || sourceId || 'Заявка с сайта';
+    }
+
+    function collectQuizAnswers($form) {
+        var answers = [];
+
+        $form.find('.step-slide[data-step]').each(function () {
+            var $step = $(this);
+            var question = normalizeLeadValue($step.find('.step-slide__title, .quiz__question-title').first().text());
+            if (!question) {
+                return;
+            }
+
+            var stepAnswers = [];
+            var groupedValues = {};
+
+            $step.find('input[type="radio"]:checked, input[type="checkbox"]:checked, select, textarea, input[type="text"], input[type="tel"], input[type="email"]').each(function () {
+                var field = this;
+                var name = normalizeLeadValue(field.name || '');
+                var value = normalizeLeadValue($(field).val());
+
+                if (!name || !value || name === 'phone' || name === 'comment' || name === 'contact' || name === 'website' || name === 'privacy_agreement') {
+                    return;
+                }
+
+                if (!groupedValues[name]) {
+                    groupedValues[name] = [];
+                }
+
+                groupedValues[name].push(value);
+            });
+
+            Object.keys(groupedValues).forEach(function (key) {
+                stepAnswers = stepAnswers.concat(groupedValues[key]);
+            });
+
+            if (stepAnswers.length) {
+                answers.push({
+                    question: question,
+                    answer: stepAnswers
+                });
+            }
+        });
+
+        return answers;
+    }
+
+    function formDataToPayload($form, extraData) {
+        var form = $form[0];
+        var formData = new FormData(form);
+        var payload = {};
+
+        formData.forEach(function (rawValue, rawKey) {
+            var key = rawKey === 'number-foto' ? 'number_foto' : rawKey === 'link-foto' ? 'link_foto' : rawKey;
+            var value = rawValue instanceof File ? rawValue.name : rawValue;
+            value = normalizeLeadValue(value);
+
+            if (!value && key !== 'website') {
+                return;
+            }
+
+            if (payload[key] !== undefined) {
+                if (!Array.isArray(payload[key])) {
+                    payload[key] = [payload[key]];
+                }
+                payload[key].push(value);
+                return;
+            }
+
+            payload[key] = value;
+        });
+
+        if (Array.isArray(payload.name) && $form.is('.form-callback__form_o')) {
+            payload.comment = normalizeLeadValue(payload.name[1] || payload.comment);
+            payload.name = normalizeLeadValue(payload.name[0]);
+        }
+
+        if (!payload.comment && Array.isArray(payload.comment)) {
+            payload.comment = payload.comment.filter(Boolean).join(', ');
+        }
+
+        payload.form_name = getFormName($form);
+        payload.page = window.location.href;
+        payload.source_id = normalizeLeadValue(payload.source_id);
+        payload.service = normalizeLeadValue(payload.service || payload.source_id);
+        payload.contact_method = normalizeLeadValue(payload.contact || '');
+        payload.attachment_name = '';
+
+        var fileInput = form.querySelector('input[type="file"]');
+        if (fileInput && fileInput.files && fileInput.files.length) {
+            payload.attachment_name = Array.from(fileInput.files).map(function (file) {
+                return normalizeLeadValue(file.name);
+            }).filter(Boolean).join(', ');
+        }
+
+        if ($form.is('#testForm')) {
+            payload.quiz_answers = collectQuizAnswers($form);
+        }
+
+        var attribution = persistAttribution();
+        Object.keys(attribution).forEach(function (key) {
+            if (!normalizeLeadValue(payload[key])) {
+                payload[key] = attribution[key];
+            }
+        });
+
+        if (extraData && typeof extraData === 'object') {
+            Object.keys(extraData).forEach(function (key) {
+                payload[key] = extraData[key];
+            });
+        }
+
+        return payload;
+    }
+
+    function updateSubmitState($form, isSubmitting) {
+        var $submitControls = $form.find('button[type="submit"], input[type="submit"], .last-step-form__button');
+        $submitControls.prop('disabled', isSubmitting);
+        $form.toggleClass('is-submitting', isSubmitting);
+
+        $form.find('.btn__load').toggle(isSubmitting);
+        $form.find('.quiz__final__btn__text').toggle(!isSubmitting);
+
+        $form.find('.form-button__button').each(function () {
+            var $button = $(this);
+            if (!$button.data('default-label')) {
+                $button.data('default-label', $button.val());
+            }
+
+            $button.val(isSubmitting ? 'Отправляем...' : $button.data('default-label'));
+        });
+    }
+
+    function reachLeadGoal(formName) {
+        if (typeof window.ym !== 'function') {
+            return;
+        }
+
+        window.ym(leadCounterId, 'reachGoal', leadGoalName, {
+            form_name: formName
+        });
+
+        if (formName && formName.toLowerCase().indexOf('квиз') !== -1) {
+            window.ym(leadCounterId, 'reachGoal', 'quiz_complete', {
+                form_name: formName
+            });
+        }
+    }
+
+    async function submitLeadForm(form, extraData) {
+        var $form = $(form);
+
+        if ($form.data('isSubmitting')) {
+            return;
+        }
+
+        var payload = formDataToPayload($form, extraData);
+        var hasPhone = normalizeLeadValue(payload.phone);
+        var hasEmail = normalizeLeadValue(payload.email);
+        var isReviewForm = normalizeLeadValue(payload.form_name).toLowerCase() === 'отзыв';
+
+        if (!hasPhone && !hasEmail && !isReviewForm) {
+            setFormStatus($form, leadErrorMessage, true);
+            if (typeof form.reportValidity === 'function') {
+                form.reportValidity();
+            }
+            throw new Error('Missing contact field');
+        }
+
+        $form.data('isSubmitting', true);
+        setFormStatus($form, '', false);
+        updateSubmitState($form, true);
+
+        try {
+            var response = await fetch('/api/lead', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json'
+                },
+                body: JSON.stringify(payload)
+            });
+
+            var result = await response.json().catch(function () {
+                return { success: false };
+            });
+
+            if (!response.ok || !result.success) {
+                throw new Error('Lead request failed');
+            }
+
+            setFormStatus($form, leadSuccessMessage, false);
+            reachLeadGoal(payload.form_name);
+
+            showInlineSuccess($form, leadSuccessMessage);
+            form.reset();
+
+            return result;
+        } catch (error) {
+            setFormStatus($form, leadErrorMessage, true);
+            throw error;
+        } finally {
+            $form.data('isSubmitting', false);
+            updateSubmitState($form, false);
+        }
+    }
+
+    addHoneypotFields();
+    persistAttribution();
+    $('form[onsubmit*="quiz_complete"]').removeAttr('onsubmit');
+
+    $(document).on('submit', '.form-callback__form, .form-callback__form_h, .form-callback__form_o, .form-callback__form_v, .form-callback__form_v1, #testForm', function (event) {
+        event.preventDefault();
+        submitLeadForm(this).catch(function () {
+            return null;
+        });
+    });
+
+    $(document).on('closed', '.remodal', function () {
+        $(this).find('form').each(function () {
+            restoreInlineSuccess($(this));
+        });
+    });

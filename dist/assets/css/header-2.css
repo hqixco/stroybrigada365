@@ -99,8 +99,8 @@ background:#313330;
 	max-width: 260px;
 	font-size: 13px;
 	line-height: 1.3;
-	font-weight: 600;
-	color: #2B2F3F;
+	font-weight: 400;
+	color: #FFF;
 }
 
 .site-header__logo img{
@@ -482,9 +482,7 @@ background:#0DB25A;
    .rating {
     display: none!important;
 }
-	.site-header__descriptor{
-		display: none;
-	}
+	
 	.site-header__logo-text{
 		display: none;
 	}
@@ -870,14 +868,18 @@ background:#0DB25A;
     }
 }
 
+@media (max-width:480px){
+    .site-header__descriptor {
+        font-size: 10px;
+        margin-left: 10px;
+	}
+}
+
 @media (max-width:380px){
 .site-header__burger {
     margin-left: 15px;
 
-}
-    
-    
-    
+}    
 }
 
 @media (max-width:767px){

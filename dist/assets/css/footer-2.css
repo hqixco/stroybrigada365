@@ -17,6 +17,7 @@
 	font-size: 14px;    color: #fff;
 	font-weight: 500;
 	line-height: calc(22 / 14);
+    margin-bottom: 8px;
 }
 .footer__text {	font-size: 14px;    color: #fff;}
 .footer__text .cont_title { color: #fff;}

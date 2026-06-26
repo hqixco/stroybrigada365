@@ -18,7 +18,8 @@ export default defineConfig({
         stroitelstvoRekonstrukciyaDomov: resolve(__dirname, 'stroitelstvo-rekonstrukciya-domov/index.html'),
         ukladkaBruschatki: resolve(__dirname, 'ukladka-bruschatki/index.html'),
         ustrojstvoOtmostki: resolve(__dirname, 'ustrojstvo-otmostki-vokrug-doma/index.html'),
-        uteplenieDoma: resolve(__dirname, 'uteplenie-doma/index.html')
+        uteplenieDoma: resolve(__dirname, 'uteplenie-doma/index.html'),
+        vostanovlenieStaryhDomovIDach: resolve(__dirname, 'vostanovlenie-staryh-domov-i-dach/index.html')
       }
     }
   }
